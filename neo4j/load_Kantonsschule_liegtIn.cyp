@@ -1,9 +1,9 @@
-MATCH (a:Kantonsschule),(b:Gemeinde)
+ï»¿MATCH (a:Kantonsschule),(b:Gemeinde)
 WHERE a.name = 'KS Alpenquai' AND b.name = 'Luzern'
 CREATE (a)-[r:liegtIn]->(b);
 
 MATCH (a:Kantonsschule),(b:Gemeinde)
-WHERE a.name = 'KS Beromünster' AND b.name = 'Beromünster'
+WHERE a.name = 'KS BeromÃ¼nster' AND b.name = 'BeromÃ¼nster'
 CREATE (a)-[r:liegtIn]->(b);
 
 MATCH (a:Kantonsschule),(b:Gemeinde)
@@ -11,11 +11,11 @@ WHERE a.name = 'KS Musegg' AND b.name = 'Luzern'
 CREATE (a)-[r:liegtIn]->(b);
 
 MATCH (a:Kantonsschule),(b:Gemeinde)
-WHERE a.name = 'KS Reussbühl' AND b.name = 'Luzern'
+WHERE a.name = 'KS ReussbÃ¼hl' AND b.name = 'Luzern'
 CREATE (a)-[r:liegtIn]->(b);
 
 MATCH (a:Kantonsschule),(b:Gemeinde)
-WHERE a.name = 'KS Schüpfheim' AND b.name = 'Schüpfheim'
+WHERE a.name = 'KS SchÃ¼pfheim' AND b.name = 'SchÃ¼pfheim'
 CREATE (a)-[r:liegtIn]->(b);
 
 MATCH (a:Kantonsschule),(b:Gemeinde)

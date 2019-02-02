@@ -1,83 +1,217 @@
-MATCH (a:Gemeinde),(b:Gemeinde)
-WHERE a.name = 'Escholzmatt-Marbach'
-AND (b.name = 'Fl�hli' OR b.name='Sch�pfheim')
+﻿// ersetzen
+// 
+
+// MATCH (a:Gemeinde)-[r:istNachbarVon]-(b:Gemeinde)
+// WHERE a.name < b.name
+// RETURN "CREATE (:GemeindeMap {n1:'" + a.name + "', n2:'" + b.name + "'})"
+// ORDER BY a.name, b.name
+
+// re-create temporary label GemeindeMap
+
+MATCH (a:GemeindeMap) DELETE a;
+
+CREATE (:GemeindeMap {n1:'Adligenswil', n2:'Dierikon'})
+CREATE (:GemeindeMap {n1:'Adligenswil', n2:'Ebikon'})
+CREATE (:GemeindeMap {n1:'Adligenswil', n2:'Luzern'})
+CREATE (:GemeindeMap {n1:'Adligenswil', n2:'Meggen'})
+CREATE (:GemeindeMap {n1:'Adligenswil', n2:'Udligenswil'})
+CREATE (:GemeindeMap {n1:'Aesch (LU)', n2:'Altwis'})
+CREATE (:GemeindeMap {n1:'Aesch (LU)', n2:'Hitzkirch'})
+CREATE (:GemeindeMap {n1:'Aesch (LU)', n2:'Schongau'})
+CREATE (:GemeindeMap {n1:'Alberswil', n2:'Ettiswil'})
+CREATE (:GemeindeMap {n1:'Alberswil', n2:'Gettnau'})
+CREATE (:GemeindeMap {n1:'Alberswil', n2:'Schötz'})
+CREATE (:GemeindeMap {n1:'Alberswil', n2:'Willisau'})
+CREATE (:GemeindeMap {n1:'Altbüron', n2:'Ebersecken'})
+CREATE (:GemeindeMap {n1:'Altbüron', n2:'Grossdietwil'})
+CREATE (:GemeindeMap {n1:'Altbüron', n2:'Pfaffnau'})
+CREATE (:GemeindeMap {n1:'Altbüron', n2:'Roggliswil'})
+CREATE (:GemeindeMap {n1:'Altishofen', n2:'Dagmersellen'})
+CREATE (:GemeindeMap {n1:'Altishofen', n2:'Ebersecken'})
+CREATE (:GemeindeMap {n1:'Altishofen', n2:'Nebikon'})
+CREATE (:GemeindeMap {n1:'Altishofen', n2:'Reiden'})
+CREATE (:GemeindeMap {n1:'Altwis', n2:'Ermensee'})
+CREATE (:GemeindeMap {n1:'Altwis', n2:'Hitzkirch'})
+CREATE (:GemeindeMap {n1:'Ballwil', n2:'Eschenbach (LU)'})
+CREATE (:GemeindeMap {n1:'Ballwil', n2:'Hochdorf'})
+CREATE (:GemeindeMap {n1:'Ballwil', n2:'Hohenrain'})
+CREATE (:GemeindeMap {n1:'Ballwil', n2:'Inwil'})
+CREATE (:GemeindeMap {n1:'Beromünster', n2:'Eich'})
+CREATE (:GemeindeMap {n1:'Beromünster', n2:'Ermensee'})
+CREATE (:GemeindeMap {n1:'Beromünster', n2:'Geuensee'})
+CREATE (:GemeindeMap {n1:'Beromünster', n2:'Hildisrieden'})
+CREATE (:GemeindeMap {n1:'Beromünster', n2:'Rickenbach (LU)'})
+CREATE (:GemeindeMap {n1:'Beromünster', n2:'Römerswil'})
+CREATE (:GemeindeMap {n1:'Beromünster', n2:'Schenkon'})
+CREATE (:GemeindeMap {n1:'Beromünster', n2:'Sempach'})
+CREATE (:GemeindeMap {n1:'Buchrain', n2:'Dierikon'})
+CREATE (:GemeindeMap {n1:'Buchrain', n2:'Ebikon'})
+CREATE (:GemeindeMap {n1:'Buchrain', n2:'Emmen'})
+CREATE (:GemeindeMap {n1:'Buchrain', n2:'Eschenbach (LU)'})
+CREATE (:GemeindeMap {n1:'Buchrain', n2:'Inwil'})
+CREATE (:GemeindeMap {n1:'Buchrain', n2:'Root'})
+CREATE (:GemeindeMap {n1:'Buttisholz', n2:'Grosswangen'})
+CREATE (:GemeindeMap {n1:'Buttisholz', n2:'Menznau'})
+CREATE (:GemeindeMap {n1:'Buttisholz', n2:'Nottwil'})
+CREATE (:GemeindeMap {n1:'Buttisholz', n2:'Oberkirch'})
+CREATE (:GemeindeMap {n1:'Buttisholz', n2:'Ruswil'})
+CREATE (:GemeindeMap {n1:'Büron', n2:'Geuensee'})
+CREATE (:GemeindeMap {n1:'Büron', n2:'Knutwil'})
+CREATE (:GemeindeMap {n1:'Büron', n2:'Schlierbach'})
+CREATE (:GemeindeMap {n1:'Büron', n2:'Triengen'})
+CREATE (:GemeindeMap {n1:'Dagmersellen', n2:'Egolzwil'})
+CREATE (:GemeindeMap {n1:'Dagmersellen', n2:'Knutwil'})
+CREATE (:GemeindeMap {n1:'Dagmersellen', n2:'Mauensee'})
+CREATE (:GemeindeMap {n1:'Dagmersellen', n2:'Nebikon'})
+CREATE (:GemeindeMap {n1:'Dagmersellen', n2:'Reiden'})
+CREATE (:GemeindeMap {n1:'Dagmersellen', n2:'Triengen'})
+CREATE (:GemeindeMap {n1:'Dagmersellen', n2:'Wauwil'})
+CREATE (:GemeindeMap {n1:'Dierikon', n2:'Ebikon'})
+CREATE (:GemeindeMap {n1:'Dierikon', n2:'Root'})
+CREATE (:GemeindeMap {n1:'Dierikon', n2:'Udligenswil'})
+CREATE (:GemeindeMap {n1:'Doppleschwand', n2:'Entlebuch'})
+CREATE (:GemeindeMap {n1:'Doppleschwand', n2:'Hasle (LU)'})
+CREATE (:GemeindeMap {n1:'Doppleschwand', n2:'Romoos'})
+CREATE (:GemeindeMap {n1:'Doppleschwand', n2:'Wolhusen'})
+CREATE (:GemeindeMap {n1:'Ebersecken', n2:'Fischbach'})
+CREATE (:GemeindeMap {n1:'Ebersecken', n2:'Grossdietwil'})
+CREATE (:GemeindeMap {n1:'Ebersecken', n2:'Nebikon'})
+CREATE (:GemeindeMap {n1:'Ebersecken', n2:'Reiden'})
+CREATE (:GemeindeMap {n1:'Ebersecken', n2:'Schötz'})
+CREATE (:GemeindeMap {n1:'Ebikon', n2:'Emmen'})
+CREATE (:GemeindeMap {n1:'Ebikon', n2:'Luzern'})
+CREATE (:GemeindeMap {n1:'Egolzwil', n2:'Nebikon'})
+CREATE (:GemeindeMap {n1:'Egolzwil', n2:'Schötz'})
+CREATE (:GemeindeMap {n1:'Egolzwil', n2:'Wauwil'})
+CREATE (:GemeindeMap {n1:'Eich', n2:'Schenkon'})
+CREATE (:GemeindeMap {n1:'Eich', n2:'Sempach'})
+CREATE (:GemeindeMap {n1:'Emmen', n2:'Eschenbach (LU)'})
+CREATE (:GemeindeMap {n1:'Emmen', n2:'Luzern'})
+CREATE (:GemeindeMap {n1:'Emmen', n2:'Neuenkirch'})
+CREATE (:GemeindeMap {n1:'Emmen', n2:'Rothenburg'})
+CREATE (:GemeindeMap {n1:'Entlebuch', n2:'Hasle (LU)'})
+CREATE (:GemeindeMap {n1:'Entlebuch', n2:'Schwarzenberg'})
+CREATE (:GemeindeMap {n1:'Entlebuch', n2:'Schüpfheim'})
+CREATE (:GemeindeMap {n1:'Entlebuch', n2:'Werthenstein'})
+CREATE (:GemeindeMap {n1:'Ermensee', n2:'Hitzkirch'})
+CREATE (:GemeindeMap {n1:'Eschenbach (LU)', n2:'Hochdorf'})
+CREATE (:GemeindeMap {n1:'Eschenbach (LU)', n2:'Inwil'})
+CREATE (:GemeindeMap {n1:'Eschenbach (LU)', n2:'Rain'})
+CREATE (:GemeindeMap {n1:'Eschenbach (LU)', n2:'Rothenburg'})
+CREATE (:GemeindeMap {n1:'Escholzmatt-Marbach', n2:'Flühli'})
+CREATE (:GemeindeMap {n1:'Escholzmatt-Marbach', n2:'Schüpfheim'})
+CREATE (:GemeindeMap {n1:'Ettiswil', n2:'Grosswangen'})
+CREATE (:GemeindeMap {n1:'Ettiswil', n2:'Mauensee'})
+CREATE (:GemeindeMap {n1:'Ettiswil', n2:'Schötz'})
+CREATE (:GemeindeMap {n1:'Ettiswil', n2:'Wauwil'})
+CREATE (:GemeindeMap {n1:'Ettiswil', n2:'Willisau'})
+CREATE (:GemeindeMap {n1:'Fischbach', n2:'Grossdietwil'})
+CREATE (:GemeindeMap {n1:'Fischbach', n2:'Schötz'})
+CREATE (:GemeindeMap {n1:'Fischbach', n2:'Ufhusen'})
+CREATE (:GemeindeMap {n1:'Fischbach', n2:'Zell (LU)'})
+CREATE (:GemeindeMap {n1:'Flühli', n2:'Hasle (LU)'})
+CREATE (:GemeindeMap {n1:'Flühli', n2:'Schüpfheim'})
+CREATE (:GemeindeMap {n1:'Gettnau', n2:'Schötz'})
+CREATE (:GemeindeMap {n1:'Gettnau', n2:'Willisau'})
+CREATE (:GemeindeMap {n1:'Gettnau', n2:'Zell (LU)'})
+CREATE (:GemeindeMap {n1:'Geuensee', n2:'Knutwil'})
+CREATE (:GemeindeMap {n1:'Geuensee', n2:'Rickenbach (LU)'})
+CREATE (:GemeindeMap {n1:'Geuensee', n2:'Schenkon'})
+CREATE (:GemeindeMap {n1:'Geuensee', n2:'Schlierbach'})
+CREATE (:GemeindeMap {n1:'Geuensee', n2:'Sursee'})
+CREATE (:GemeindeMap {n1:'Gisikon', n2:'Honau'})
+CREATE (:GemeindeMap {n1:'Gisikon', n2:'Inwil'})
+CREATE (:GemeindeMap {n1:'Gisikon', n2:'Root'})
+CREATE (:GemeindeMap {n1:'Greppen', n2:'Weggis'})
+CREATE (:GemeindeMap {n1:'Grosswangen', n2:'Mauensee'})
+CREATE (:GemeindeMap {n1:'Grosswangen', n2:'Menznau'})
+CREATE (:GemeindeMap {n1:'Grosswangen', n2:'Oberkirch'})
+CREATE (:GemeindeMap {n1:'Grosswangen', n2:'Willisau'})
+CREATE (:GemeindeMap {n1:'Hasle (LU)', n2:'Romoos'})
+CREATE (:GemeindeMap {n1:'Hasle (LU)', n2:'Schüpfheim'})
+CREATE (:GemeindeMap {n1:'Hergiswil bei Willisau', n2:'Luthern'})
+CREATE (:GemeindeMap {n1:'Hergiswil bei Willisau', n2:'Menznau'})
+CREATE (:GemeindeMap {n1:'Hergiswil bei Willisau', n2:'Romoos'})
+CREATE (:GemeindeMap {n1:'Hergiswil bei Willisau', n2:'Willisau'})
+CREATE (:GemeindeMap {n1:'Hildisrieden', n2:'Neuenkirch'})
+CREATE (:GemeindeMap {n1:'Hildisrieden', n2:'Rain'})
+CREATE (:GemeindeMap {n1:'Hildisrieden', n2:'Römerswil'})
+CREATE (:GemeindeMap {n1:'Hildisrieden', n2:'Sempach'})
+CREATE (:GemeindeMap {n1:'Hitzkirch', n2:'Hohenrain'})
+CREATE (:GemeindeMap {n1:'Hitzkirch', n2:'Römerswil'})
+CREATE (:GemeindeMap {n1:'Hitzkirch', n2:'Schongau'})
+CREATE (:GemeindeMap {n1:'Hochdorf', n2:'Hohenrain'})
+CREATE (:GemeindeMap {n1:'Hochdorf', n2:'Rain'})
+CREATE (:GemeindeMap {n1:'Hochdorf', n2:'Römerswil'})
+CREATE (:GemeindeMap {n1:'Honau', n2:'Inwil'})
+CREATE (:GemeindeMap {n1:'Horw', n2:'Kriens'})
+CREATE (:GemeindeMap {n1:'Horw', n2:'Luzern'})
+CREATE (:GemeindeMap {n1:'Inwil', n2:'Root'})
+CREATE (:GemeindeMap {n1:'Knutwil', n2:'Mauensee'})
+CREATE (:GemeindeMap {n1:'Knutwil', n2:'Sursee'})
+CREATE (:GemeindeMap {n1:'Knutwil', n2:'Triengen'})
+CREATE (:GemeindeMap {n1:'Kriens', n2:'Luzern'})
+CREATE (:GemeindeMap {n1:'Kriens', n2:'Malters'})
+CREATE (:GemeindeMap {n1:'Kriens', n2:'Schwarzenberg'})
+CREATE (:GemeindeMap {n1:'Luthern', n2:'Ufhusen'})
+CREATE (:GemeindeMap {n1:'Luthern', n2:'Willisau'})
+CREATE (:GemeindeMap {n1:'Luzern', n2:'Malters'})
+CREATE (:GemeindeMap {n1:'Luzern', n2:'Meggen'})
+CREATE (:GemeindeMap {n1:'Luzern', n2:'Neuenkirch'})
+CREATE (:GemeindeMap {n1:'Malters', n2:'Neuenkirch'})
+CREATE (:GemeindeMap {n1:'Malters', n2:'Ruswil'})
+CREATE (:GemeindeMap {n1:'Malters', n2:'Schwarzenberg'})
+CREATE (:GemeindeMap {n1:'Malters', n2:'Werthenstein'})
+CREATE (:GemeindeMap {n1:'Mauensee', n2:'Oberkirch'})
+CREATE (:GemeindeMap {n1:'Mauensee', n2:'Sursee'})
+CREATE (:GemeindeMap {n1:'Mauensee', n2:'Wauwil'})
+CREATE (:GemeindeMap {n1:'Meierskappel', n2:'Root'})
+CREATE (:GemeindeMap {n1:'Meierskappel', n2:'Udligenswil'})
+CREATE (:GemeindeMap {n1:'Menznau', n2:'Romoos'})
+CREATE (:GemeindeMap {n1:'Menznau', n2:'Ruswil'})
+CREATE (:GemeindeMap {n1:'Menznau', n2:'Willisau'})
+CREATE (:GemeindeMap {n1:'Menznau', n2:'Wolhusen'})
+CREATE (:GemeindeMap {n1:'Nebikon', n2:'Schötz'})
+CREATE (:GemeindeMap {n1:'Neuenkirch', n2:'Nottwil'})
+CREATE (:GemeindeMap {n1:'Neuenkirch', n2:'Rain'})
+CREATE (:GemeindeMap {n1:'Neuenkirch', n2:'Rothenburg'})
+CREATE (:GemeindeMap {n1:'Neuenkirch', n2:'Ruswil'})
+CREATE (:GemeindeMap {n1:'Neuenkirch', n2:'Sempach'})
+CREATE (:GemeindeMap {n1:'Nottwil', n2:'Oberkirch'})
+CREATE (:GemeindeMap {n1:'Nottwil', n2:'Ruswil'})
+CREATE (:GemeindeMap {n1:'Oberkirch', n2:'Sursee'})
+CREATE (:GemeindeMap {n1:'Pfaffnau', n2:'Reiden'})
+CREATE (:GemeindeMap {n1:'Pfaffnau', n2:'Roggliswil'})
+CREATE (:GemeindeMap {n1:'Rain', n2:'Rothenburg'})
+CREATE (:GemeindeMap {n1:'Rain', n2:'Römerswil'})
+CREATE (:GemeindeMap {n1:'Reiden', n2:'Triengen'})
+CREATE (:GemeindeMap {n1:'Reiden', n2:'Wikon'})
+CREATE (:GemeindeMap {n1:'Rickenbach (LU)', n2:'Schlierbach'})
+CREATE (:GemeindeMap {n1:'Romoos', n2:'Schüpfheim'})
+CREATE (:GemeindeMap {n1:'Romoos', n2:'Wolhusen'})
+CREATE (:GemeindeMap {n1:'Root', n2:'Udligenswil'})
+CREATE (:GemeindeMap {n1:'Ruswil', n2:'Werthenstein'})
+CREATE (:GemeindeMap {n1:'Ruswil', n2:'Wolhusen'})
+CREATE (:GemeindeMap {n1:'Schenkon', n2:'Sursee'})
+CREATE (:GemeindeMap {n1:'Schlierbach', n2:'Triengen'})
+CREATE (:GemeindeMap {n1:'Schötz', n2:'Wauwil'})
+CREATE (:GemeindeMap {n1:'Schötz', n2:'Zell (LU)'})
+CREATE (:GemeindeMap {n1:'Ufhusen', n2:'Willisau'})
+CREATE (:GemeindeMap {n1:'Ufhusen', n2:'Zell (LU)'})
+CREATE (:GemeindeMap {n1:'Vitznau', n2:'Weggis'})
+CREATE (:GemeindeMap {n1:'Werthenstein', n2:'Wolhusen'})
+CREATE (:GemeindeMap {n1:'Willisau', n2:'Zell (LU)'});
+
+// delete current relationships istNachbarVon
+
+MATCH (p )-[r:istNachbarVon]->() DELETE r;
+
+// create relationship from temporary label
+
+MATCH (a:Gemeinde),(b:Gemeinde),(m:GemeindeMap)
+WHERE m.n1=a.name and m.n2=b.name
 CREATE (a)-[r:istNachbarVon]->(b);
 
-MATCH (a:Gemeinde),(b:Gemeinde)
-WHERE a.name = 'Fl�hli'
-AND (b.name = 'Hasle (LU)' OR b.name='Sch�pfheim')
-CREATE (a)-[r:istNachbarVon]->(b);
+// remove temporary label GemeindeMap
 
-MATCH (a:Gemeinde),(b:Gemeinde)
-WHERE a.name = 'Sch�pfheim'
-AND (b.name = 'Hasle (LU)' OR b.name='Romoos' OR b.name='Entlebuch')
-CREATE (a)-[r:istNachbarVon]->(b);
-
-MATCH (a:Gemeinde),(b:Gemeinde)
-WHERE a.name = 'Hasle (LU)'
-AND (b.name = 'Doppleschwand' OR b.name='Romoos' OR b.name='Entlebuch')
-CREATE (a)-[r:istNachbarVon]->(b);
-
-MATCH (a:Gemeinde),(b:Gemeinde)
-WHERE a.name = 'Entlebuch'
-AND (b.name = 'Doppleschwand' OR b.name='Werthenstein' OR b.name='Schwarzenberg')
-CREATE (a)-[r:istNachbarVon]->(b);
-
-MATCH (a:Gemeinde),(b:Gemeinde)
-WHERE a.name = 'Doppleschwand'
-AND (b.name = 'Romoos' OR b.name='Wolhusen')
-CREATE (a)-[r:istNachbarVon]->(b);
-
-MATCH (a:Gemeinde),(b:Gemeinde)
-WHERE a.name = 'Schwarzenberg'
-AND (b.name = 'Malters' OR b.name='Kriens')
-CREATE (a)-[r:istNachbarVon]->(b);
-
-MATCH (a:Gemeinde),(b:Gemeinde)
-WHERE a.name = 'Malters'
-AND (b.name = 'Luzern' OR b.name='Kriens' OR b.name='Werthenstein' OR b.name='Ruswil' OR b.name='Neuenkirch')
-CREATE (a)-[r:istNachbarVon]->(b);
-
-MATCH (a:Gemeinde),(b:Gemeinde)
-WHERE a.name = 'Kriens'
-AND (b.name = 'Luzern' OR b.name='Honau')
-CREATE (a)-[r:istNachbarVon]->(b);
-
-MATCH (a:Gemeinde),(b:Gemeinde)
-WHERE a.name = 'Honau'
-AND (b.name = 'Luzern')
-CREATE (a)-[r:istNachbarVon]->(b);
-
-MATCH (a:Gemeinde),(b:Gemeinde)
-WHERE a.name = 'Luzern'
-AND (b.name = 'Emmen' OR b.name='Ebikon' OR b.name='Adligenswil' OR b.name='Meggen' OR b.name='Neuenkirch')
-CREATE (a)-[r:istNachbarVon]->(b);
-
-MATCH (a:Gemeinde),(b:Gemeinde)
-WHERE a.name = 'Vitznau'
-AND (b.name = 'Weggis')
-CREATE (a)-[r:istNachbarVon]->(b);
-
-MATCH (a:Gemeinde),(b:Gemeinde)
-WHERE a.name = 'Weggis'
-AND (b.name = 'Greppen')
-CREATE (a)-[r:istNachbarVon]->(b);
-
-MATCH (a:Gemeinde),(b:Gemeinde)
-WHERE a.name = 'Meggen'
-AND (b.name = 'Adligenswil')
-CREATE (a)-[r:istNachbarVon]->(b);
-
-MATCH (a:Gemeinde),(b:Gemeinde)
-WHERE a.name = 'Adligenswil'
-AND (b.name = 'Ebikon' OR b.name='Dierikon' OR b.name='Udligenswil')
-CREATE (a)-[r:istNachbarVon]->(b);
-
-MATCH (a:Gemeinde),(b:Gemeinde)
-WHERE a.name = 'Ebikon'
-AND (b.name = 'Emmen' OR b.name='Dierikon' OR b.name='Buchrain')
-CREATE (a)-[r:istNachbarVon]->(b);
-
-
-
-
+MATCH (a:GemeindeMap) DELETE a;
