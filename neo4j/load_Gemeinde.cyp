@@ -82,8 +82,11 @@ CREATE (G1151:Gemeinde {name:'Willisau', BFSNr:1151})
 CREATE (G1107:Gemeinde {name:'Wolhusen', BFSNr:1107})
 CREATE (G1150:Gemeinde {name:'Zell (LU)', BFSNr:1150});
 
-CREATE (G1092:Gemeinde {name:'Neudorf', BFSNr:1092, AbweichenderNameKSLU:'Neudorf XXX'});
-CREATE (G1003:Gemeinde {name:'Escholzmatt', BFSNr:1003, AbweichenderNameKSLU:'Escholzmatt XXX'});
+CREATE (G1092:Gemeinde {name:'Neudorf', BFSNr:1092, AbweichenderNameKSLU:'Neudorf XXX'})
+CREATE (G1003:Gemeinde {name:'Escholzmatt', BFSNr:1003, AbweichenderNameKSLU:'Escholzmatt XXX'})
+CREATE (G1138:Gemeinde {name:'Ohmstal', BFSNr:1138, AbweichenderNameKSLU:'Ohmstal XXX'})
+CREATE (G1006:Gemeinde {name:'Marbach (LU)', BFSNr:1006, AbweichenderNameKSLU:'Marbach (LU) XXX'})
+CREATE (G1096:Gemeinde {name:'Pfeffikon', BFSNr:1096, AbweichenderNameKSLU:'Pfeffikon XXX'});
 
 MATCH (a:Gemeinde),(b:Gemeinde)
 WHERE a.name = 'Neudorf' AND b.name = 'Beromünster'
@@ -91,4 +94,16 @@ CREATE (a)-[r:istEingemeindetVon {seit:date('2013-01-01')}]->(b);
 
 MATCH (a:Gemeinde),(b:Gemeinde)
 WHERE a.name = 'Escholzmatt' AND b.name = 'Escholzmatt-Marbach'
+CREATE (a)-[r:istEingemeindetVon {seit:date('2013-01-01')}]->(b);
+
+MATCH (a:Gemeinde),(b:Gemeinde)
+WHERE a.name = 'Ohmstal' AND b.name = 'Schötz'
+CREATE (a)-[r:istEingemeindetVon {seit:date('2013-01-01')}]->(b);
+
+MATCH (a:Gemeinde),(b:Gemeinde)
+WHERE a.name = 'Marbach (LU)' AND b.name = 'Escholzmatt-Marbach'
+CREATE (a)-[r:istEingemeindetVon {seit:date('2013-01-01')}]->(b);
+
+MATCH (a:Gemeinde),(b:Gemeinde)
+WHERE a.name = 'Pfeffikon' AND b.name = 'Rickenbach (LU)'
 CREATE (a)-[r:istEingemeindetVon {seit:date('2013-01-01')}]->(b);
