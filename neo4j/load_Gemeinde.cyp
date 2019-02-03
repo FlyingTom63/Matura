@@ -80,15 +80,15 @@ CREATE (G1009:Gemeinde {name:'Werthenstein', BFSNr:1009})
 CREATE (G1147:Gemeinde {name:'Wikon', BFSNr:1147})
 CREATE (G1151:Gemeinde {name:'Willisau', BFSNr:1151})
 CREATE (G1107:Gemeinde {name:'Wolhusen', BFSNr:1107})
-CREATE (G1150:Gemeinde {name:'Zell (LU)', BFSNr:1150})
+CREATE (G1150:Gemeinde {name:'Zell (LU)', BFSNr:1150});
 
-CREATE (G1092:Gemeinde {name:'Neudorf', BFSNr:1092, AbweichenderNameKSLU:'Neudorf XXX'})
-CREATE (G1003:Gemeinde {name:'Escholzmatt', BFSNr:1003, AbweichenderNameKSLU:'Escholzmatt XXX'})
+CREATE (G1092:Gemeinde {name:'Neudorf', BFSNr:1092, AbweichenderNameKSLU:'Neudorf XXX'});
+CREATE (G1003:Gemeinde {name:'Escholzmatt', BFSNr:1003, AbweichenderNameKSLU:'Escholzmatt XXX'});
 
 MATCH (a:Gemeinde),(b:Gemeinde)
 WHERE a.name = 'Neudorf' AND b.name = 'Beromünster'
-CREATE (a)-[r:istEingemeindetVon {seit:date('2013-01-01')}]->(b)
+CREATE (a)-[r:istEingemeindetVon {seit:date('2013-01-01')}]->(b);
 
 MATCH (a:Gemeinde),(b:Gemeinde)
 WHERE a.name = 'Escholzmatt' AND b.name = 'Escholzmatt-Marbach'
-CREATE (a)-[r:istEingemeindetVon {seit:date('2013-01-01')}]->(b)
+CREATE (a)-[r:istEingemeindetVon {seit:date('2013-01-01')}]->(b);
