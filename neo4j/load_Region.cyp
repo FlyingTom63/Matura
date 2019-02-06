@@ -1,0 +1,11 @@
+﻿CREATE (:Region {name:'Stadt Luzern', RegionCode:1})
+CREATE (:Region {name:'Agglomerationskern', RegionCode:2})
+CREATE (:Region {name:'Agglomerationsgürtel (Luzerner Teil)', RegionCode:3})
+CREATE (:Region {name:'Rooterberg/Rigi', RegionCode:4})
+CREATE (:Region {name:'Sursee/Sempachersee', RegionCode:5})
+CREATE (:Region {name:'Michelsamt/Surental', RegionCode:6})
+CREATE (:Region {name:'Unteres Wiggertal', RegionCode:7})
+CREATE (:Region {name:'Willisau', RegionCode:8})
+CREATE (:Region {name:'Entlebuch', RegionCode:9})
+CREATE (:Region {name:'Rottal-Wolhusen', RegionCode:10})
+CREATE (:Region {name:'Seetal', RegionCode:11});

@@ -1,0 +1,11 @@
+﻿CREATE (:Partei {name:'FDP'})
+CREATE (:Partei {name:'CVP'})
+CREATE (:Partei {name:'SP'})
+CREATE (:Partei {name:'SVP'})
+CREATE (:Partei {name:'EVP/CSP'})
+CREATE (:Partei {name:'GLP'})
+CREATE (:Partei {name:'BDP'})
+CREATE (:Partei {name:'PdA/Sol.'})
+CREATE (:Partei {name:'GPS'})
+CREATE (:Partei {name:'Kleine Rechtsparteien'})
+CREATE (:Partei {name:'Übrige Parteien'});
