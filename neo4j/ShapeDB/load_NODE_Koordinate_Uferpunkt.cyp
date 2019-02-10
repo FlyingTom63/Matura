@@ -1,0 +1,11 @@
+﻿MATCH (k:Koordinate) WHERE k.name='655790.967050001 221966.559' SET k.UferpunktID=3, k.SeeuferSteigung=-1.0, k.SeeSeite='-';
+MATCH (k:Koordinate) WHERE k.name='653537.570050001 223948.1' SET k.UferpunktID=2, k.SeeuferSteigung=-1.0, k.SeeSeite='-';
+MATCH (k:Koordinate) WHERE k.name='674812.614050001 211429.121' SET k.UferpunktID=10, k.SeeuferSteigung=2.0, k.SeeSeite='+';
+MATCH (k:Koordinate) WHERE k.name='668028.162050001 209764.355' SET k.UferpunktID=8, k.SeeuferSteigung=-1.0, k.SeeSeite='+';
+MATCH (k:Koordinate) WHERE k.name='669524.109049998 210116.609' SET k.UferpunktID=9, k.SeeuferSteigung=-3.0, k.SeeSeite='-';
+MATCH (k:Koordinate) WHERE k.name='655437.226050001 219286.673' SET k.UferpunktID=5, k.SeeuferSteigung=-1.0, k.SeeSeite='+';
+MATCH (k:Koordinate) WHERE k.name='656758.390050001 219202.03' SET k.UferpunktID=4, k.SeeuferSteigung=2.0, k.SeeSeite='+';
+MATCH (k:Koordinate) WHERE k.name='652416.02905 221965.288' SET k.UferpunktID=6, k.SeeuferSteigung=-1.0, k.SeeSeite='+';
+MATCH (k:Koordinate) WHERE k.name='651870.491050001 224160.95' SET k.UferpunktID=7, k.SeeuferSteigung=10.0, k.SeeSeite='-';
+MATCH (k:Koordinate) WHERE k.name='652132.15405 224959.493' SET k.UferpunktID=1, k.SeeuferSteigung=-1.0, k.SeeSeite='-';
+MATCH (k:Koordinate) WHERE k.name='678288.56605 208383.69' SET k.UferpunktID=11, k.SeeuferSteigung=1000.0, k.SeeSeite='+';
