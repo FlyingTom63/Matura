@@ -12,11 +12,4 @@ CREATE (a:ShapeNode {name:line.ShapeID + ' / ' + line.Name,
 CREATE CONSTRAINT ON (a:ShapeNode) ASSERT a.name IS UNIQUE;
 CREATE CONSTRAINT ON (a:ShapeNode) ASSERT a.ShapeNodeID IS UNIQUE;
 
-//  checks
-
-LOAD CSV WITH HEADERS 
-FROM 'file:///NODE_Shape.csv' AS line
-FIELDTERMINATOR ';'
-RETURN COUNT(*);
-// = 89  
-
+CREATE INDEX ON :ShapeNode(KoordinateName);

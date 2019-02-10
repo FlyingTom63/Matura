@@ -1,7 +1,7 @@
 ﻿LOAD CSV WITH HEADERS 
 FROM 'file:///NODE_ShapeNode.csv' AS line
 FIELDTERMINATOR ';'
-MATCH (a:Koordinate), (b:ShapeNode)
-WHERE a.name=line.Name
+MATCH (a:Shape), (b:ShapeNode)
+WHERE a.ShapeID=toInteger(line.ShapeID)
   AND b.ShapeNodeID=toInteger(line.RowNumber)
-CREATE (a)<-[r:wirdVerwendet]-(b);
+CREATE (a)<-[r:hatEckpunkt]-(b);
