@@ -33,3 +33,4 @@ neo4j/set_env.bat
 .metadata/knime/history_csvwrite.txt
 .metadata/knime/history_XLSReader.txt
 .metadata/knime/history_XLSWRITER.txt
+.RData
