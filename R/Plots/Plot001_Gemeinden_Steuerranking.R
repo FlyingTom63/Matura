@@ -1,5 +1,5 @@
 # ########################################################
-#   Project : CAS BDA6
+#   Project : CAS BDA6 SCHULE
 #   Purpose : plotting choropleths with R
 #   Date    : 18-JAN-2019  
 #   Author  : Thomas Luetolf
@@ -22,10 +22,10 @@ library(plyr)
 # --------------------------------------------------------
 
 # analyze metadata of shape file (output to console)
-rgdal::ogrInfo("shape/GEMKTLU0_PY.shp")
+rgdal::ogrInfo("data/shapes/Gemeinden/GEMKTLU0_PY.shp")
 
 # read shape file and plot empty shapes for verification
-gd_map <- rgdal::readOGR("shape/GEMKTLU0_PY.shp")
+gd_map <- rgdal::readOGR("data/shapes/Gemeinden/GEMKTLU0_PY.shp")
 rgeos::plot(gd_map)
 
 # index BFS_NR for shape access
@@ -39,7 +39,7 @@ gd_map_centers <- ddply(gd_map, .(id), summarize, clat = mean(lat), clong = mean
 # --------------------------------------------------------
 
 # read in data and display metadata
-gd_dat <- read.csv("data/Gemeinden_Steuern_Rank.csv")
+gd_dat <- read.csv("data/output/BDA6_SCHULE_Gemeinden_Plot_Steuern.csv")
 colwise(class)(gd_dat)
 
 # plot choropleth
@@ -85,7 +85,7 @@ ggsave(
 # --------------------------------------------------------
 
 # read in data and display metadata
-gd_dat <- read.csv("data/Gemeinden_Steuern_Class.csv")
+gd_dat <- read.csv("data/output/BDA6_SCHULE_Gemeinden_Plot_Steuern.csv")
 colwise(class)(gd_dat)
 
 ggplot() +
@@ -103,13 +103,11 @@ ggplot() +
     y = gd_map$lat) + 
   geom_text (data = gd_map_centers, aes(x = clong, y = clat, label = id))
 
-# stretch plot output to scale before exporting to file
-
 # save choropleth to PNG
 ggsave(
   filename = "ChoroplethClasses.png",
   plot = last_plot(),
-  path = "image",
+  path = "images/Plots",
   scale = 1,
   dpi = 600)
 
@@ -117,7 +115,7 @@ ggsave(
 ggsave(
   filename = "ChoroplethClasses.svg",
   plot = last_plot(),
-  path = "image",
+  path = "images/Plots",
   scale = 1)
 # --------------------------------------------------------
 #   3rd example: classified data and managed colors
