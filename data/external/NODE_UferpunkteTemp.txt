@@ -1,0 +1,4 @@
+Datei      : NODE_UferpunkteTemp.csv
+Inhalt     : manuell erfasste Uferpunkte für ShapeDB
+Verwendung : Load in ShapeDB mittel Cypher
+             (CSV-Datei ins Import-Verzeichnis der DM kopieren)
