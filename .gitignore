@@ -27,3 +27,5 @@ neo4j/set_env.bat
 .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
 .metadata/.log
 .metadata/.lock
+.Rproj.user
+.Rhistory
