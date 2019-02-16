@@ -29,3 +29,7 @@ neo4j/set_env.bat
 .metadata/.lock
 .Rproj.user
 .Rhistory
+.metadata/.plugins/org.eclipse.core.resources/.root/3.tree
+.metadata/knime/history_csvwrite.txt
+.metadata/knime/history_XLSReader.txt
+.metadata/knime/history_XLSWRITER.txt
