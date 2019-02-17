@@ -1,0 +1,37 @@
+﻿MATCH (g:Gemeinde)<-[r:istEingemeindetVon]-(alt:Gemeinde),
+      (g)-[l:gehoertZu]->(o:Region)
+RETURN g.name AS GemeindeName,
+       'LU' AS KantonKurzname,
+       alt.AbweichenderNameKSLU AS GemeindeNameSchule,
+       toInteger(0) AS GemeindeVerzeichnisFlag,
+       g.BFSNr AS GemeindeNummer,
+       g.AnzahlEinwohner as AnzahlEinwohner,
+       o.RegionCode AS RegionCode,
+       o.name AS RegionName,
+       g.GesamtRankIAZIOriginal AS BRank_Gesamt,
+       g.ArbeitsmarktRankIAZIOriginal AS BRank_Arbeitsmarkt,
+       g.BevoelkerungRankIAZIOriginal AS BRank_Bevoelkerung,
+       g.ErreichbarkeitRankIAZIOriginal AS BRank_Erreichbarkeit,
+       g.SicherheitRankIAZIOriginal AS BRank_Sicherheit,
+       g.SteuerRankIAZIOriginal AS BRank_Steuerbelastung,
+       g.VersorgungRankIAZIOriginal AS BRank_Versorgung,
+       g.WohnenRankIAZIOriginal AS BRank_Wohnen
+UNION ALL
+MATCH (g:Gemeinde)-[l:gehoertZu]->(o:Region)
+WHERE g.AbweichenderNameKSLU IS NULL
+RETURN g.name AS GemeindeName,
+       'LU' AS KantonKurzname,
+       g.name AS GemeindeNameSchule,
+       toInteger(1) AS GemeindeVerzeichnisFlag,
+       g.BFSNr AS GemeindeNummer,
+       g.AnzahlEinwohner as AnzahlEinwohner,
+       o.RegionCode AS RegionCode,
+       o.name AS RegionName,
+       g.GesamtRankIAZIOriginal AS BRank_Gesamt,
+       g.ArbeitsmarktRankIAZIOriginal AS BRank_Arbeitsmarkt,
+       g.BevoelkerungRankIAZIOriginal AS BRank_Bevoelkerung,
+       g.ErreichbarkeitRankIAZIOriginal AS BRank_Erreichbarkeit,
+       g.SicherheitRankIAZIOriginal AS BRank_Sicherheit,
+       g.SteuerRankIAZIOriginal AS BRank_Steuerbelastung,
+       g.VersorgungRankIAZIOriginal AS BRank_Versorgung,
+       g.WohnenRankIAZIOriginal AS BRank_Wohnen;
