@@ -1,6 +1,6 @@
 # ########################################################
 #   Project : CAS BDA6 SCHULE
-#   Purpose : plotting choropleths with R
+#   Purpose : plotting choropleth Plot001
 #   Date    : 18-JAN-2019  
 #   Author  : Thomas Luetolf
 #   Version : R 3.5.1, RStudio Version 1.1.463
@@ -35,11 +35,11 @@ gd_map <- fortify(gd_map, region = "BFS_NR")
 gd_map_centers <- ddply(gd_map, .(id), summarize, clat = mean(lat), clong = mean(long))
 
 # --------------------------------------------------------
-#   1st example: unclassified data
+#   plot 001: Steuer-Ranking IAZI der Gemeinden
 # --------------------------------------------------------
 
 # read in data and display metadata
-gd_dat <- read.csv("data/output/BDA6_SCHULE_Gemeinden_Plot_Steuern.csv")
+gd_dat <- read.csv("data/output/BDA6_SCHULE_Plot001_Gemeinden_Steuerranking.csv")
 colwise(class)(gd_dat)
 
 # plot choropleth
@@ -67,94 +67,17 @@ ggplot() +
 
 # save choropleth to PNG
 ggsave(
-   filename = "ChoroplethRanks.png",
+   filename = "Plot001_Gemeinden_Steuerranking.png",
    plot = last_plot(),
-   path = "image",
+   path = "images/Plots",
    scale = 1,
    dpi = 600)
 
 # save choropleth to SVG
 ggsave(
-  filename = "ChoroplethRanks.svg",
-  plot = last_plot(),
-  path = "image",
-  scale = 1)
-
-# --------------------------------------------------------
-#   2nd example: classified data
-# --------------------------------------------------------
-
-# read in data and display metadata
-gd_dat <- read.csv("data/output/BDA6_SCHULE_Gemeinden_Plot_Steuern.csv")
-colwise(class)(gd_dat)
-
-ggplot() +
-  labs(
-    title="Steuerbelastung nach Gemeinden gemäss Steuereinheiten",
-    subtitle="5 Klassen, gleichverteilt",
-    x=NULL,
-    y=NULL) +
-  geom_map (
-    data = gd_dat,
-    aes(map_id = BFS_NR, fill = Klasse, color = "red"),
-    map = gd_map) + 
-  expand_limits (
-    x = gd_map$long,
-    y = gd_map$lat) + 
-  geom_text (data = gd_map_centers, aes(x = clong, y = clat, label = id))
-
-# save choropleth to PNG
-ggsave(
-  filename = "ChoroplethClasses.png",
+  filename = "Plot001_Gemeinden_Steuerranking.svg",
   plot = last_plot(),
   path = "images/Plots",
-  scale = 1,
-  dpi = 600)
-
-# save choropleth to SVG
-ggsave(
-  filename = "ChoroplethClasses.svg",
-  plot = last_plot(),
-  path = "images/Plots",
-  scale = 1)
-# --------------------------------------------------------
-#   3rd example: classified data and managed colors
-# --------------------------------------------------------
-
-# read in data and display metadata
-gd_dat <- read.csv("data/Matura_Plot.csv")
-colwise(class)(gd_dat)
-
-ggplot() +
-  labs(
-    title="Maturanoten",
-    subtitle="gerundet auf 2 Nachkommastellen",
-    x=NULL,
-    y=NULL) +
-  geom_map (
-    data = gd_dat,
-    aes(map_id = BFS_NR, fill = Matura, color = "red"),
-    map = gd_map) + 
-  expand_limits (
-    x = gd_map$long,
-    y = gd_map$lat) + 
-  geom_text (data = gd_map_centers, aes(x = clong, y = clat, label = id))
-
-# stretch plot output to scale before exporting to file
-
-# save choropleth to PNG
-ggsave(
-  filename = "ChoroplethMatura.png",
-  plot = last_plot(),
-  path = "image",
-  scale = 1,
-  dpi = 600)
-
-# save choropleth to SVG
-ggsave(
-  filename = "ChoroplethMatura.svg",
-  plot = last_plot(),
-  path = "image",
   scale = 1)
 
 # --------------------------------------------------------

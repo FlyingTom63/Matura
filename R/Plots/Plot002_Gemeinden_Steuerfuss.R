@@ -1,6 +1,6 @@
 # ########################################################
 #   Project : CAS BDA6 SCHULE
-#   Purpose : plotting choropleths Plot002
+#   Purpose : plotting choropleth Plot002
 #   Date    : 18-JAN-2019  
 #   Author  : Thomas Luetolf
 #   Version : R 3.5.1, RStudio Version 1.1.463
@@ -40,7 +40,7 @@ gd_map_centers <- ddply(gd_map, .(id), summarize, clat = mean(lat), clong = mean
 # --------------------------------------------------------
 
 # read in data and display metadata
-gd_dat <- read.csv("data/output/BDA6_SCHULE_Gemeinden_Plot_Steuern.csv")
+gd_dat <- read.csv("data/output/BDA6_SCHULE_Plot002_Gemeinden_Steuerfuss.csv")
 colwise(class)(gd_dat)
 
 ggplot() +
@@ -57,6 +57,8 @@ ggplot() +
     x = gd_map$long,
     y = gd_map$lat) + 
   geom_text (data = gd_map_centers, aes(x = clong, y = clat, label = id))
+
+# stretch plot output to scale before exporting to file
 
 # save choropleth to PNG
 ggsave(
