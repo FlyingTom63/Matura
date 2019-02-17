@@ -27,7 +27,7 @@ ggplot() +
      y=NULL) +
   geom_map (
      data = gd_dat,
-     aes(map_id = BFS_NR, fill = Klasse, color = "black"),
+     aes(map_id = BFS_NR, fill = Rank, color = "black"),
      map = gd_map) + 
   expand_limits (
      x = gd_map$long,
