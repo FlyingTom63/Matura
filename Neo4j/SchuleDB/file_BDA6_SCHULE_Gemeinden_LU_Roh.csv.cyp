@@ -15,7 +15,8 @@ RETURN g.name AS GemeindeName,
        g.SicherheitRankIAZIKorrigiert AS BRank_Sicherheit,
        g.SteuerRankIAZIKorrigiert AS BRank_Steuerbelastung,
        g.VersorgungRankIAZIKorrigiert AS BRank_Versorgung,
-       g.WohnenRankIAZIKorrigiert AS BRank_Wohnen
+       g.WohnenRankIAZIKorrigiert AS BRank_Wohnen,
+       g.SteuerFuss AS SteuerFuss
 UNION ALL
 MATCH (g:Gemeinde)-[l:gehoertZu]->(o:Region)
 WHERE g.AbweichenderNameKSLU IS NULL
@@ -34,4 +35,5 @@ RETURN g.name AS GemeindeName,
        g.SicherheitRankIAZIKorrigiert AS BRank_Sicherheit,
        g.SteuerRankIAZIKorrigiert AS BRank_Steuerbelastung,
        g.VersorgungRankIAZIKorrigiert AS BRank_Versorgung,
-       g.WohnenRankIAZIKorrigiert AS BRank_Wohnen;
+       g.WohnenRankIAZIKorrigiert AS BRank_Wohnen,
+       g.SteuerFuss AS SteuerFuss;
