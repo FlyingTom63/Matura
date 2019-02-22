@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg stroke-dasharray="none" shape-rendering="auto"
      xmlns="http://www.w3.org/2000/svg" font-family="&apos;Dialog&apos;"
-     width="504" text-rendering="auto" fill-opacity="1"
+     width="501" text-rendering="auto" fill-opacity="1"
      contentScriptType="text/ecmascript" color-interpolation="auto"
      color-rendering="auto" preserveAspectRatio="xMidYMid meet" font-size="12"
      fill="black" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="black"
@@ -24,7 +24,7 @@
                 <path d="M278 78 L326 78 L326 95 L278 95 L278 78 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath4">
-                <path d="M376 78 L505 78 L505 140 L376 140 L376 78 Z"/>
+                <path d="M376 78 L502 78 L502 140 L376 140 L376 78 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath5">
                 <path d="M-1 0 L120 0 L120 17 L-1 17 L-1 0 Z"/>
@@ -66,7 +66,7 @@
                 <path d="M404 33 L431 33 L431 44 L404 44 L404 33 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath18">
-                <path d="M-1 -1 L926 -1 L926 406 L-1 406 L-1 -1 Z"/>
+                <path d="M-1 -1 L671 -1 L671 241 L-1 241 L-1 -1 Z"/>
             </clipPath>
         </defs>
         <g stroke-miterlimit="0" stroke-width="0"
@@ -75,10 +75,10 @@
                   stroke="none">Node 1</text><text xml:space="preserve" x="159"
                   y="91" clip-path="url(#clipPath2)" stroke="none">Node 2</text><text xml:space="preserve"
                   x="279" y="91" clip-path="url(#clipPath3)" stroke="none">Node 3</text><text xml:space="preserve"
-                  x="392" y="91" clip-path="url(#clipPath4)" stroke="none">BDA6_SCHULE_</text><text xml:space="preserve"
-                  x="415" y="106" clip-path="url(#clipPath4)" stroke="none">Plot002_</text><text xml:space="preserve"
+                  x="391" y="91" clip-path="url(#clipPath4)" stroke="none">BDA6_SCHULE_</text><text xml:space="preserve"
+                  x="414" y="106" clip-path="url(#clipPath4)" stroke="none">Plot002_</text><text xml:space="preserve"
                   x="377" y="121" clip-path="url(#clipPath4)" stroke="none">Gemeinden_Shapefile</text><text xml:space="preserve"
-                  x="429" y="136" clip-path="url(#clipPath4)" stroke="none">.csv</text><text x="0"
+                  x="428" y="136" clip-path="url(#clipPath4)" stroke="none">.csv</text><text x="0"
                   y="13" clip-path="url(#clipPath5)" stroke="none"
                   font-weight="bold" xml:space="preserve">Excel Reader (XLS)</text><image xmlns:xlink="http://www.w3.org/1999/xlink"
                    transform="matrix(1,0,0,1,43,23)" width="32"
@@ -263,16 +263,16 @@ YII=" xlink:actuate="onLoad"/>
                   xml:space="preserve">Node 2</text><text x="279" y="91"
                   clip-path="url(#clipPath3)"
                   text-rendering="optimizeLegibility" stroke="none"
-                  xml:space="preserve">Node 3</text><text x="392" y="91"
+                  xml:space="preserve">Node 3</text><text x="391" y="91"
                   clip-path="url(#clipPath4)"
                   text-rendering="optimizeLegibility" stroke="none"
-                  xml:space="preserve">BDA6_SCHULE_</text><text x="415" y="106"
+                  xml:space="preserve">BDA6_SCHULE_</text><text x="414" y="106"
                   clip-path="url(#clipPath4)"
                   text-rendering="optimizeLegibility" stroke="none"
                   xml:space="preserve">Plot002_</text><text x="377" y="121"
                   clip-path="url(#clipPath4)"
                   text-rendering="optimizeLegibility" stroke="none"
-                  xml:space="preserve">Gemeinden_Shapefile</text><text x="429"
+                  xml:space="preserve">Gemeinden_Shapefile</text><text x="428"
                   y="136" clip-path="url(#clipPath4)"
                   text-rendering="optimizeLegibility" stroke="none"
                   xml:space="preserve">.csv</text><text x="0" y="13"
@@ -466,17 +466,17 @@ YII=" xlink:actuate="onLoad"/>
                   y1="38" y2="38"/>
             <line clip-path="url(#clipPath18)" fill="none" x1="405" x2="413"
                   y1="38" y2="38"/>
-            <line clip-path="url(#clipPath18)" fill="none" x1="84" x2="92"
-                  y1="38" y2="38"/>
-            <line clip-path="url(#clipPath18)" fill="none" x1="92" x2="145"
-                  y1="38" y2="38"/>
-            <line clip-path="url(#clipPath18)" fill="none" x1="145" x2="153"
-                  y1="38" y2="38"/>
             <line clip-path="url(#clipPath18)" fill="none" x1="204" x2="212"
                   y1="38" y2="38"/>
             <line clip-path="url(#clipPath18)" fill="none" x1="212" x2="265"
                   y1="38" y2="38"/>
             <line clip-path="url(#clipPath18)" fill="none" x1="265" x2="273"
+                  y1="38" y2="38"/>
+            <line clip-path="url(#clipPath18)" fill="none" x1="84" x2="92"
+                  y1="38" y2="38"/>
+            <line clip-path="url(#clipPath18)" fill="none" x1="92" x2="145"
+                  y1="38" y2="38"/>
+            <line clip-path="url(#clipPath18)" fill="none" x1="145" x2="153"
                   y1="38" y2="38"/>
         </g>
     </g>

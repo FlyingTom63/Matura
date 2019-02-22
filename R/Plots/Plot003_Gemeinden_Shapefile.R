@@ -41,24 +41,29 @@ gd_map_centers <- ddply(gd_map, .(id), summarize, clat = mean(lat), clong = mean
 
 ggplot() +
   labs(
-    title="Steuerbelastung nach Gemeinden gemäss Steuereinheiten",
-    subtitle="5 Klassen, gleichverteilt",
+    title="Shapefile Gemeinden des Kantons Luzern",
+    subtitle="Quelle: Geoportal Kanton Luzern",
     x=NULL,
     y=NULL) +
   geom_map (
     data = gd_dat,
-    aes(map_id = BFS_NR, fill = 0, color = "red"),
+    aes(map_id = BFS_NR, fill = 0, color = "black"),
     map = gd_map) + 
   expand_limits (
     x = gd_map$long,
     y = gd_map$lat) + 
-  geom_text (data = gd_map_centers, aes(x = clong, y = clat, label = id))
+  geom_text (data = gd_map_centers, aes(x = clong, y = clat, label = id)) +
+  scale_fill_gradient2 (
+    limits=c(-1000,1000),
+    low="red",
+    mid="white", midpoint=0,
+    high="blue")
 
 # stretch plot output to scale before exporting to file
 
 # save choropleth to PNG
 ggsave(
-  filename = "Plot002_Gemeinden_Steuerfuss.png",
+  filename = "Plot002_Gemeinden_Shapefile.png",
   plot = last_plot(),
   path = "images/Plots",
   scale = 1,
@@ -66,7 +71,7 @@ ggsave(
 
 # save choropleth to SVG
 ggsave(
-  filename = "Plot002_Gemeinden_Steuerfuss.svg",
+  filename = "Plot002_Gemeinden_Shapefile.svg",
   plot = last_plot(),
   path = "images/Plots",
   scale = 1)
