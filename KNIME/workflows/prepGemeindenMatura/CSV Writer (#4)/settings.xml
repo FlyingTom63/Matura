@@ -19,7 +19,7 @@
 <entry key="decimalSeparator" type="xchar" value="."/>
 <entry key="lineEndingMode" type="xstring" value="SYST"/>
 <entry key="charSet" type="xstring" isnull="true" value=""/>
-<entry key="filename" type="xstring" value="C:\Users\Tom\myCloud\Users\Thomas\Documents\KNIME\TomsSpielwiese\output\Matura_Plot.csv"/>
+<entry key="filename" type="xstring" value="knime://LOCAL/data/output/Matura_Plot.csv"/>
 <entry key="fileOverwritePolicy" type="xstring" value="Overwrite"/>
 <entry key="skipWriteColHeaderOnAppend" type="xboolean" value="false"/>
 <entry key="commentBegin" type="xstring" value=""/>
@@ -31,7 +31,7 @@
 <entry key="gzip" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.io.csvwriter.CSVWriterNodeFactory"/>
 <entry key="node-name" type="xstring" value="CSV Writer"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -44,11 +44,11 @@
 <entry key="node-feature-version" type="xstring" value="3.7.0.v201812041331"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="CSV Writer"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports"/>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="3ee2ed75-3298-4b8a-aed1-f5994746ec30"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

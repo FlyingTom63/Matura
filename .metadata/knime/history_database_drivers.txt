@@ -1,0 +1,4 @@
+org.neo4j.jdbc.Driver
+org.neo4j.jdbc.boltrouting.BoltRoutingNeo4jDriver
+org.neo4j.jdbc.bolt.BoltDriver
+sun.jdbc.odbc.JdbcOdbcDriver

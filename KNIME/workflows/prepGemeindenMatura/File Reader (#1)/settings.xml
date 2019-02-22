@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="DataURL" type="xstring" value="knime://LOCAL/TomsSpielwiese/data/students_joined.csv"/>
+<entry key="DataURL" type="xstring" value="knime://LOCAL/data/external/students_joined_ANSI.csv"/>
 <config key="Delimiters">
 <config key="Delim0">
 <entry key="pattern" type="xstring" value="%%00010"/>
@@ -164,7 +164,7 @@
 <entry key="FormatParameter" type="xstring" isnull="true" value=""/>
 <entry key="ReadPossValsFromFile" type="xboolean" value="false"/>
 <entry key="SkipThisColumn" type="xboolean" value="false"/>
-<entry key="ColumnName" type="xstring" value="FranzÃ¶sisch"/>
+<entry key="ColumnName" type="xstring" value="Französisch"/>
 <config key="ColumnClass">
 <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <entry key="is_null" type="xboolean" value="false"/>
@@ -331,6 +331,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="c65a4481-74f3-43af-b495-e060b629e922"/>
+<entry key="file_store_id" type="xstring" value="7ce4af01-1349-40d1-9653-cd7237c8401c"/>
 </config>
 </config>

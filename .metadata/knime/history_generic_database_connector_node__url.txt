@@ -1,0 +1,2 @@
+jdbc:h2:mem:test
+jdbc:h2:tcp://<host>:9092/<database_name>

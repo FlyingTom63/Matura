@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+enable_code_assit=YES
+report.data.oda.bidi.jdbc.ui.externalbidiformat=ILYNN
+shemas_prefetch_config=YES
+user_max_num_of_schema=20
+user_max_num_of_table_each_schema=100
+user_timeout_limit=60

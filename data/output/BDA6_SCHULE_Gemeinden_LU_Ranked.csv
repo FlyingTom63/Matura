@@ -1,0 +1,89 @@
+"?GemeindeName","KantonKurzname","GemeindeNameSchule","GemeindeVerzeichnisFlag","GemeindeNummer","AnzahlEinwohner","RegionCode","RegionName","GesamtRank","ArbeitsmarktRank","BevoelkerungRank","ErreichbarkeitRank","SicherheitRank","SteuernRank","VersorgungRank"
+"Adligenswil","LU","Adligenswil",1,1051,5349,2,"Agglomerationskern",14,29,12,14,74,47,56
+"Aesch (LU)","LU","Aesch (LU)",1,1021,1051,11,"Seetal",20,7,23,44,59,34,8
+"Alberswil","LU","Alberswil",1,1121,643,8,"Willisau",73,57,47,75,1,51,49
+"Altbüron","LU","Altbüron",1,1122,974,8,"Willisau",50,58,41,33,1,72,26
+"Altishofen","LU","Altishofen",1,1123,1579,7,"Unteres Wiggertal",54,51,54,8,1,14,62
+"Altwis","LU","Altwis",1,1022,410,11,"Seetal",20,7,23,44,59,78,8
+"Ballwil","LU","Ballwil",1,1023,2649,11,"Seetal",10,6,5,26,59,8,52
+"Beromünster","LU","Beromünster",1,1081,6234,6,"Michelsamt/Surental",48,61,20,73,37,25,43
+"Beromünster","LU","Neudorf XXX",0,1081,6234,6,"Michelsamt/Surental",48,61,20,73,37,25,43
+"Buchrain","LU","Buchrain",1,1052,6161,2,"Agglomerationskern",18,21,62,21,74,34,86
+"Buttisholz","LU","Buttisholz",1,1083,3272,10,"Rottal-Wolhusen",83,81,58,82,37,47,72
+"Büron","LU","Büron",1,1082,2287,6,"Michelsamt/Surental",87,85,66,58,37,72,55
+"Dagmersellen","LU","Dagmersellen",1,1125,5118,7,"Unteres Wiggertal",35,22,50,9,1,25,88
+"Dierikon","LU","Dierikon",1,1053,1440,2,"Agglomerationskern",20,26,38,10,74,25,60
+"Doppleschwand","LU","Doppleschwand",1,1001,743,9,"Entlebuch",66,70,79,61,26,78,74
+"Ebersecken","LU","Ebersecken",1,1126,401,8,"Willisau",69,72,48,17,1,78,59
+"Ebikon","LU","Ebikon",1,1054,12781,2,"Agglomerationskern",30,34,60,4,74,18,73
+"Egolzwil","LU","Egolzwil",1,1127,1368,7,"Unteres Wiggertal",53,46,40,23,1,34,83
+"Eich","LU","Eich",1,1084,1707,5,"Sursee/Sempachersee",16,23,11,42,37,4,32
+"Emmen","LU","Emmen",1,1024,29292,2,"Agglomerationskern",28,27,88,15,59,65,38
+"Entlebuch","LU","Entlebuch",1,1002,3325,9,"Entlebuch",69,76,73,70,26,57,84
+"Ermensee","LU","Ermensee",1,1025,865,11,"Seetal",37,31,22,60,57,57,21
+"Eschenbach (LU)","LU","Eschenbach (LU)",1,1026,3594,3,"Agglomerationsgürtel (Luzerner Teil)",29,44,16,27,59,6,87
+"Escholzmatt-Marbach","LU","Escholzmatt XXX",0,1010,4323,9,"Entlebuch",84,86,85,76,26,42,12
+"Escholzmatt-Marbach","LU","Escholzmatt-Marbach",1,1010,4323,9,"Entlebuch",84,86,85,76,26,42,12
+"Escholzmatt-Marbach","LU","Marbach (LU) XXX",0,1010,4323,9,"Entlebuch",84,86,85,76,26,42,12
+"Ettiswil","LU","Ettiswil",1,1128,2562,8,"Willisau",81,52,44,79,1,51,63
+"Fischbach","LU","Fischbach",1,1129,733,8,"Willisau",75,68,53,56,1,78,57
+"Flühli","LU","Flühli",1,1004,1880,9,"Entlebuch",57,53,78,72,26,34,31
+"Gettnau","LU","Gettnau",1,1130,1088,8,"Willisau",72,66,56,70,1,78,39
+"Geuensee","LU","Geuensee",1,1085,2750,6,"Michelsamt/Surental",43,32,17,44,37,72,77
+"Gisikon","LU","Gisikon",1,1055,1134,4,"Rooterberg/Rigi",40,42,51,18,73,10,41
+"Greppen","LU","Greppen",1,1056,1034,4,"Rooterberg/Rigi",6,35,13,51,74,25,1
+"Grossdietwil","LU","Grossdietwil",1,1131,838,8,"Willisau",60,67,49,28,1,72,47
+"Grosswangen","LU","Grosswangen",1,1086,3104,10,"Rottal-Wolhusen",47,48,57,84,37,25,85
+"Hasle (LU)","LU","Hasle (LU)",1,1005,1778,9,"Entlebuch",55,49,71,68,26,78,76
+"Hergiswil bei Willisau","LU","Hergiswil bei Willisau",1,1132,1869,8,"Willisau",82,77,72,86,1,57,35
+"Hildisrieden","LU","Hildisrieden",1,1088,2055,3,"Agglomerationsgürtel (Luzerner Teil)",9,14,3,38,37,11,60
+"Hitzkirch","LU","Hitzkirch",1,1030,5069,11,"Seetal",20,7,23,44,59,42,8
+"Hochdorf","LU","Hochdorf",1,1031,9401,11,"Seetal",34,19,45,39,59,47,17
+"Hohenrain","LU","Hohenrain",1,1032,2481,11,"Seetal",71,80,33,68,59,65,81
+"Honau","LU","Honau",1,1057,381,4,"Rooterberg/Rigi",44,39,29,30,59,18,53
+"Horw","LU","Horw",1,1058,13813,2,"Agglomerationskern",2,4,46,13,74,7,25
+"Inwil","LU","Inwil",1,1033,2429,3,"Agglomerationsgürtel (Luzerner Teil)",44,39,29,30,59,18,53
+"Knutwil","LU","Knutwil",1,1089,2126,5,"Sursee/Sempachersee",31,41,8,55,37,51,40
+"Kriens","LU","Kriens",1,1059,27229,2,"Agglomerationskern",36,38,83,5,74,34,42
+"Luthern","LU","Luthern",1,1135,1307,8,"Willisau",58,63,63,87,1,78,15
+"Luzern","LU","Luzern",1,1061,81057,1,"Stadt Luzern",4,18,74,1,88,16,7
+"Malters","LU","Malters",1,1062,6923,3,"Agglomerationsgürtel (Luzerner Teil)",33,24,68,20,74,42,19
+"Mauensee","LU","Mauensee",1,1091,1271,5,"Sursee/Sempachersee",39,33,37,36,36,47,51
+"Meggen","LU","Meggen",1,1063,6775,2,"Agglomerationskern",1,3,6,7,74,1,5
+"Meierskappel","LU","Meierskappel",1,1064,1351,4,"Rooterberg/Rigi",27,25,36,12,74,65,43
+"Menznau","LU","Menznau",1,1136,2918,8,"Willisau",88,84,82,85,1,72,64
+"Nebikon","LU","Nebikon",1,1137,2517,7,"Unteres Wiggertal",68,72,28,19,1,18,82
+"Neuenkirch","LU","Neuenkirch",1,1093,6484,3,"Agglomerationsgürtel (Luzerner Teil)",12,4,18,25,37,18,20
+"Nottwil","LU","Nottwil",1,1094,3476,5,"Sursee/Sempachersee",17,13,10,40,37,25,6
+"Oberkirch","LU","Oberkirch",1,1095,4062,5,"Sursee/Sempachersee",19,12,4,43,37,9,29
+"Pfaffnau","LU","Pfaffnau",1,1139,2304,8,"Willisau",50,58,41,33,1,25,26
+"Rain","LU","Rain",1,1037,2533,3,"Agglomerationsgürtel (Luzerner Teil)",11,2,2,37,59,18,71
+"Reiden","LU","Reiden",1,1140,6892,7,"Unteres Wiggertal",61,82,76,2,1,72,23
+"Rickenbach (LU)","LU","Pfeffikon XXX",0,1097,3110,6,"Michelsamt/Surental",76,74,31,80,37,65,66
+"Rickenbach (LU)","LU","Rickenbach (LU)",1,1097,3110,6,"Michelsamt/Surental",76,74,31,80,37,65,66
+"Roggliswil","LU","Roggliswil",1,1142,647,8,"Willisau",50,58,41,33,1,57,26
+"Romoos","LU","Romoos",1,1007,663,9,"Entlebuch",63,56,80,67,25,57,66
+"Root","LU","Root",1,1065,4736,4,"Rooterberg/Rigi",38,47,70,6,74,14,30
+"Rothenburg","LU","Rothenburg",1,1040,7246,2,"Agglomerationskern",15,16,27,10,59,18,36
+"Ruswil","LU","Ruswil",1,1098,6812,10,"Rottal-Wolhusen",32,15,61,64,37,34,33
+"Römerswil","LU","Römerswil",1,1039,1669,11,"Seetal",26,20,19,41,58,51,33
+"Schenkon","LU","Schenkon",1,1099,2731,5,"Sursee/Sempachersee",5,1,7,57,37,2,50
+"Schlierbach","LU","Schlierbach",1,1100,792,6,"Michelsamt/Surental",67,68,39,61,37,11,69
+"Schongau","LU","Schongau",1,1041,1004,11,"Seetal",20,7,23,44,59,57,8
+"Schwarzenberg","LU","Schwarzenberg",1,1066,1686,3,"Agglomerationsgürtel (Luzerner Teil)",41,43,75,22,72,57,47
+"Schötz","LU","Ohmstal XXX",0,1143,4095,8,"Willisau",78,54,34,49,1,65,79
+"Schötz","LU","Schötz",1,1143,4095,8,"Willisau",78,54,34,49,1,65,79
+"Schüpfheim","LU","Schüpfheim",1,1008,4111,9,"Entlebuch",42,28,69,66,26,51,70
+"Sempach","LU","Sempach",1,1102,4171,5,"Sursee/Sempachersee",3,16,9,32,37,34,18
+"Sursee","LU","Sursee",1,1103,9390,5,"Sursee/Sempachersee",25,30,51,24,37,16,4
+"Triengen","LU","Triengen",1,1104,4462,6,"Michelsamt/Surental",80,78,55,58,37,11,74
+"Udligenswil","LU","Udligenswil",1,1067,2262,3,"Agglomerationsgürtel (Luzerner Teil)",13,11,1,16,74,25,58
+"Ufhusen","LU","Ufhusen",1,1145,876,8,"Willisau",65,71,65,83,1,78,22
+"Vitznau","LU","Vitznau",1,1068,1271,4,"Rooterberg/Rigi",6,35,13,51,74,3,1
+"Wauwil","LU","Wauwil",1,1146,1904,7,"Unteres Wiggertal",46,45,59,28,1,51,78
+"Weggis","LU","Weggis",1,1069,4355,4,"Rooterberg/Rigi",6,35,13,51,74,5,1
+"Werthenstein","LU","Werthenstein",1,1009,2035,10,"Rottal-Wolhusen",56,50,81,63,26,78,46
+"Wikon","LU","Wikon",1,1147,1470,7,"Unteres Wiggertal",61,82,76,2,1,88,23
+"Willisau","LU","Willisau",1,1151,7623,8,"Willisau",58,63,63,87,1,57,15
+"Wolhusen","LU","Wolhusen",1,1107,4294,10,"Rottal-Wolhusen",64,65,84,54,26,78,65
+"Zell (LU)","LU","Zell (LU)",1,1150,1999,8,"Willisau",74,79,67,65,1,34,37

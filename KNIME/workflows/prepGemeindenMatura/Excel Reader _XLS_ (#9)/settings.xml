@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="XLS_LOCATION" type="xstring" value="knime://LOCAL/TomsSpielwiese/output/BDA6_SCHULE_Gemeinden_LU.xlsx"/>
+<entry key="XLS_LOCATION" type="xstring" value="knime://LOCAL/data/output/BDA6_SCHULE_Gemeinden_LU.xlsx"/>
 <entry key="SHEET_NAME" type="xstring" isnull="true" value=""/>
 <entry key="READ_ALL_DATA" type="xboolean" value="true"/>
 <entry key="FIRST_ROW" type="xint" value="1"/>
@@ -30,10 +30,10 @@
 <entry key="REEVALUATE_FORMULAE" type="xboolean" value="false"/>
 <entry key="TIMEOUT_IN_SECONDS" type="xint" value="1"/>
 <entry key="NO_PREVIEW" type="xboolean" value="false"/>
-<entry key="XLS_SettingsForSpecID" type="xstring" value="SettingsID:knime://LOCAL/TomsSpielwiese/output/BDA6_SCHULE_Gemeinden_LU.xlsx-110101101-111001#XL_EVAL_ERROR#010"/>
+<entry key="XLS_SettingsForSpecID" type="xstring" value="SettingsID:knime://LOCAL/data/output/BDA6_SCHULE_Gemeinden_LU.xlsx-110101101-111001#XL_EVAL_ERROR#010"/>
 <config key="XLS_DataTableSpec">
 <entry key="spec_name" type="xstring" value="BDA6_SCHULE_Gemeinden_LU.xlsx [Gemeinden]"/>
-<entry key="number_columns" type="xint" value="13"/>
+<entry key="number_columns" type="xint" value="15"/>
 <config key="column_spec_0">
 <entry key="column_name" type="xstring" value="GemeindeName"/>
 <config key="element_names">
@@ -90,7 +90,7 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_5">
-<entry key="column_name" type="xstring" value="BRank_Gesamt"/>
+<entry key="column_name" type="xstring" value="RegionCode"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -101,18 +101,18 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_6">
-<entry key="column_name" type="xstring" value="BRank_Arbeitsmarkt"/>
+<entry key="column_name" type="xstring" value="RegionName"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
 <config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
 </config>
 <config key="column_domain"/>
 <config key="column_properties"/>
 </config>
 <config key="column_spec_7">
-<entry key="column_name" type="xstring" value="BRank_Bevoelkerung"/>
+<entry key="column_name" type="xstring" value="BRank_Gesamt"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -123,7 +123,7 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_8">
-<entry key="column_name" type="xstring" value="BRank_Erreichbarkeit"/>
+<entry key="column_name" type="xstring" value="BRank_Arbeitsmarkt"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -134,7 +134,7 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_9">
-<entry key="column_name" type="xstring" value="BRank_Sicherheit"/>
+<entry key="column_name" type="xstring" value="BRank_Bevoelkerung"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -145,7 +145,7 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_10">
-<entry key="column_name" type="xstring" value="BRank_Steuerbelastung"/>
+<entry key="column_name" type="xstring" value="BRank_Erreichbarkeit"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -156,7 +156,7 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_11">
-<entry key="column_name" type="xstring" value="BRank_Versorgung"/>
+<entry key="column_name" type="xstring" value="BRank_Sicherheit"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -167,6 +167,28 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_12">
+<entry key="column_name" type="xstring" value="BRank_Steuerbelastung"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+</config>
+<config key="column_spec_13">
+<entry key="column_name" type="xstring" value="BRank_Versorgung"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+</config>
+<config key="column_spec_14">
 <entry key="column_name" type="xstring" value="BRank_Wohnen"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -200,12 +222,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 85, Cols: 13"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 88, Cols: 15"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="8bb55c38-94de-4c0a-b2db-9a8a62b57122"/>
+<entry key="file_store_id" type="xstring" value="f5c5090f-c1f7-45cc-8aea-3516c6521a3c"/>
 </config>
 </config>

@@ -9,41 +9,41 @@
 <config key="column-filter">
 <entry key="filter-type" type="xstring" value="STANDARD"/>
 <config key="included_names">
-<entry key="array-size" type="xint" value="2"/>
-<entry key="0" type="xstring" value="M"/>
-<entry key="1" type="xstring" value="GemeindeNummer"/>
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Gemeinde"/>
+<entry key="1" type="xstring" value="M"/>
+<entry key="2" type="xstring" value="GemeindeNummer"/>
 </config>
 <config key="excluded_names">
-<entry key="array-size" type="xint" value="29"/>
+<entry key="array-size" type="xint" value="28"/>
 <entry key="0" type="xstring" value="row ID"/>
-<entry key="1" type="xstring" value="Gemeinde"/>
-<entry key="2" type="xstring" value="Schule"/>
-<entry key="3" type="xstring" value="Geschlecht"/>
-<entry key="4" type="xstring" value="Muttersprache"/>
-<entry key="5" type="xstring" value="Heimatland"/>
-<entry key="6" type="xstring" value="Alter"/>
-<entry key="7" type="xstring" value="FranzÃ¶sisch"/>
-<entry key="8" type="xstring" value="Italienisch"/>
-<entry key="9" type="xstring" value="Mathematik"/>
-<entry key="10" type="xstring" value="1"/>
-<entry key="11" type="xstring" value="2"/>
-<entry key="12" type="xstring" value="3"/>
-<entry key="13" type="xstring" value="4"/>
-<entry key="14" type="xstring" value="5"/>
-<entry key="15" type="xstring" value="6"/>
-<entry key="16" type="xstring" value="7"/>
-<entry key="17" type="xstring" value="Gesamtergebnis"/>
-<entry key="18" type="xstring" value="GemeindeName"/>
-<entry key="19" type="xstring" value="KantonKurzname"/>
-<entry key="20" type="xstring" value="GemeindeVerzeichnisFlag"/>
-<entry key="21" type="xstring" value="BRank_Gesamt"/>
-<entry key="22" type="xstring" value="BRank_Arbeitsmarkt"/>
-<entry key="23" type="xstring" value="BRank_Bevoelkerung"/>
-<entry key="24" type="xstring" value="BRank_Erreichbarkeit"/>
-<entry key="25" type="xstring" value="BRank_Sicherheit"/>
-<entry key="26" type="xstring" value="BRank_Steuerbelastung"/>
-<entry key="27" type="xstring" value="BRank_Versorgung"/>
-<entry key="28" type="xstring" value="BRank_Wohnen"/>
+<entry key="1" type="xstring" value="Schule"/>
+<entry key="2" type="xstring" value="Geschlecht"/>
+<entry key="3" type="xstring" value="Muttersprache"/>
+<entry key="4" type="xstring" value="Heimatland"/>
+<entry key="5" type="xstring" value="Alter"/>
+<entry key="6" type="xstring" value="FranzÃ¶sisch"/>
+<entry key="7" type="xstring" value="Italienisch"/>
+<entry key="8" type="xstring" value="Mathematik"/>
+<entry key="9" type="xstring" value="1"/>
+<entry key="10" type="xstring" value="2"/>
+<entry key="11" type="xstring" value="3"/>
+<entry key="12" type="xstring" value="4"/>
+<entry key="13" type="xstring" value="5"/>
+<entry key="14" type="xstring" value="6"/>
+<entry key="15" type="xstring" value="7"/>
+<entry key="16" type="xstring" value="Gesamtergebnis"/>
+<entry key="17" type="xstring" value="GemeindeName"/>
+<entry key="18" type="xstring" value="KantonKurzname"/>
+<entry key="19" type="xstring" value="GemeindeVerzeichnisFlag"/>
+<entry key="20" type="xstring" value="BRank_Gesamt"/>
+<entry key="21" type="xstring" value="BRank_Arbeitsmarkt"/>
+<entry key="22" type="xstring" value="BRank_Bevoelkerung"/>
+<entry key="23" type="xstring" value="BRank_Erreichbarkeit"/>
+<entry key="24" type="xstring" value="BRank_Sicherheit"/>
+<entry key="25" type="xstring" value="BRank_Steuerbelastung"/>
+<entry key="26" type="xstring" value="BRank_Versorgung"/>
+<entry key="27" type="xstring" value="BRank_Wohnen"/>
 </config>
 <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
 <config key="name_pattern">
@@ -84,12 +84,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 11439, Cols: 2"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 12158, Cols: 6"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="21bb736e-1591-4d26-a872-cd6c79aafcb8"/>
+<entry key="file_store_id" type="xstring" value="2e174b20-56de-4221-8968-0600546a1f7f"/>
 </config>
 </config>
