@@ -63,7 +63,7 @@ ggplot() +
 
 # save choropleth to PNG
 ggsave(
-  filename = "Plot002_Gemeinden_Shapefile.png",
+  filename = "Plot003_Gemeinden_Shapefile.png",
   plot = last_plot(),
   path = "images/Plots",
   scale = 1,
@@ -71,7 +71,7 @@ ggsave(
 
 # save choropleth to SVG
 ggsave(
-  filename = "Plot002_Gemeinden_Shapefile.svg",
+  filename = "Plot003_Gemeinden_Shapefile.svg",
   plot = last_plot(),
   path = "images/Plots",
   scale = 1)
