@@ -35,7 +35,7 @@ gd_map <- fortify(gd_map, region = "BFS_NR")
 gd_map_centers <- ddply(gd_map, .(id), summarize, clat = mean(lat), clong = mean(long))
 
 # --------------------------------------------------------
-#   plot 001: Steuer-Ranking IAZI der Gemeinden
+#   plot
 # --------------------------------------------------------
 
 # read in data and display metadata
@@ -45,7 +45,7 @@ colwise(class)(gd_dat)
 # plot choropleth
 ggplot() +
   labs(
-    title="Steuerbelastung nach Gemeinden gemäss IAZI-Ranking",
+    title="Steuerbelastung nach Gemeinden gemäss CH-Ranking",
     subtitle="Analyse der Rohdaten (Werte 1-1000, Missing Values -1000)",
     x=NULL,
     y=NULL) +
@@ -61,7 +61,9 @@ ggplot() +
     limits=c(-1000,1000),
     low="red",
     mid="white", midpoint=0,
-    high="blue")
+    high="blue") + 
+  scale_color_manual(values=c("white")) +
+  guides(color = FALSE)
 
 # stretch plot output to scale before exporting to file
 

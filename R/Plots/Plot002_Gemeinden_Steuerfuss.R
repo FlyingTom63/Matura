@@ -36,7 +36,7 @@ gd_map_centers <- ddply(gd_map, .(id), summarize, clat = mean(lat), clong = mean
 
 
 # --------------------------------------------------------
-#   plot 002: Steuerfuss der Gemeinden
+#   plot
 # --------------------------------------------------------
 
 # read in data and display metadata
@@ -46,7 +46,7 @@ colwise(class)(gd_dat)
 ggplot() +
   labs(
     title="Steuerbelastung nach Gemeinden gemäss Steuereinheiten",
-    subtitle="5 Klassen, gleichverteilt",
+    subtitle="Plot 2: 5 Klassen, gleichverteilt",
     x=NULL,
     y=NULL) +
   geom_map (
@@ -56,7 +56,9 @@ ggplot() +
   expand_limits (
     x = gd_map$long,
     y = gd_map$lat) + 
-  geom_text (data = gd_map_centers, aes(x = clong, y = clat, label = id))
+  geom_text (data = gd_map_centers, aes(x = clong, y = clat, label = id)) + 
+  scale_color_manual(values=c("white")) +
+  guides(color = FALSE)
 
 # stretch plot output to scale before exporting to file
 

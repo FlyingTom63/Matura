@@ -35,42 +35,48 @@ gd_map <- fortify(gd_map, region = "BFS_NR")
 gd_map_centers <- ddply(gd_map, .(id), summarize, clat = mean(lat), clong = mean(long))
 
 # --------------------------------------------------------
-#   plot 001: Steuer-Ranking IAZI der Gemeinden
+#   plot
 # --------------------------------------------------------
 
 # read in data and display metadata
 gd_dat <- read.csv("data/output/BDA6_SCHULE_Gemeinden_LU_Ranked.csv")
 colwise(class)(gd_dat)
 
+# rename data column for legend
+colnames(gd_dat)[11] <- "Rank"
+colwise(class)(gd_dat)
+
 # plot choropleth
 ggplot() +
   labs(
-    title="Steuerbelastung nach Gemeinden gemäss IAZI-Ranking",
-    subtitle="Analyse der Rohdaten (Werte 1-1000, Missing Values -1000)",
+    title="Gemeinderanking LU nach Merkmal Bevölkerung",
+    subtitle="Plot 5: Ranks 1-83, basierend auf CH-Ranking, Missing Values gemäss Nachbarschaft",
     x=NULL,
     y=NULL) +
   geom_map (
     data = gd_dat,
-    aes(map_id = GemeindeNummer, fill = BevoelkerungRank, color = "white"),
+    aes(map_id = GemeindeNummer, fill = Rank, color = "white"),
     map = gd_map) + 
   expand_limits (
     x = gd_map$long,
     y = gd_map$lat) + 
-  geom_text (data = gd_map_centers, aes(x = clong, y = clat, label = id))
+  geom_text (data = gd_map_centers, aes(x = clong, y = clat, label = id), color = "grey") +
+  scale_color_manual(values=c("black")) +
+  guides(color = FALSE)
 
 # stretch plot output to scale before exporting to file
 
 # save choropleth to PNG
 ggsave(
-   filename = "Plot001_Gemeinden_Steuerranking.png",
-   plot = last_plot(),
-   path = "images/Plots",
-   scale = 1,
-   dpi = 600)
+  filename = "Plot005_Gemeinden_BevoelkerungRank.png",
+  plot = last_plot(),
+  path = "images/Plots",
+  scale = 1,
+  dpi = 600)
 
 # save choropleth to SVG
 ggsave(
-  filename = "Plot001_Gemeinden_Steuerranking.svg",
+  filename = "Plot005_Gemeinden_BevoelkerungRank.svg",
   plot = last_plot(),
   path = "images/Plots",
   scale = 1)

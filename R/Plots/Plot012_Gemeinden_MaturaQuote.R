@@ -1,6 +1,6 @@
 # ########################################################
 #   Project : CAS BDA6 SCHULE
-#   Purpose : plotting choropleth Plot011
+#   Purpose : plotting choropleth Plot012
 #   Date    : 18-JAN-2019  
 #   Author  : Thomas Luetolf
 #   Version : R 3.5.1, RStudio Version 1.1.463
@@ -35,7 +35,7 @@ gd_map <- fortify(gd_map, region = "BFS_NR")
 gd_map_centers <- ddply(gd_map, .(id), summarize, clat = mean(lat), clong = mean(long))
 
 # --------------------------------------------------------
-#   plot 011: Matura-Quote pro Gemeinde
+#   plot
 # --------------------------------------------------------
 
 # read in data and display metadata
@@ -50,7 +50,7 @@ colwise(class)(gd_dat)
 ggplot() +
   labs(
     title="Matura-Quoten der Gemeinden",
-    subtitle="Anzahl Maturen zu Anzahl Einwohner in Prozent",
+    subtitle="Plot 12: Anzahl Maturen zu Anzahl Einwohner in Prozent",
     x=NULL,
     y=NULL) +
   geom_map (
@@ -60,16 +60,17 @@ ggplot() +
   expand_limits (
     x = gd_map$long,
     y = gd_map$lat) + 
-  geom_text (data = gd_map_centers, aes(x = clong, y = clat, label = id)) +
+  geom_text (data = gd_map_centers, aes(x = clong, y = clat, label = id), color = "black") +
   scale_fill_gradient2 (
     limits=c(0,4.5)) + 
+  scale_color_manual(values=c("black")) +
   guides(color = FALSE)
 
 # stretch plot output to scale before exporting to file
 
 # save choropleth to PNG
 ggsave(
-   filename = "Plot011_Gemeinden_MaturaQuote.png",
+   filename = "Plot012_Gemeinden_MaturaQuote.png",
    plot = last_plot(),
    path = "images/Plots",
    scale = 1,
@@ -77,7 +78,7 @@ ggsave(
 
 # save choropleth to SVG
 ggsave(
-  filename = "Plot011_Gemeinden_MaturaQuote.svg",
+  filename = "Plot012_Gemeinden_MaturaQuote.svg",
   plot = last_plot(),
   path = "images/Plots",
   scale = 1)

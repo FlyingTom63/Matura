@@ -36,13 +36,13 @@ gd_map_centers <- ddply(gd_map, .(id), summarize, clat = mean(lat), clong = mean
 
 
 # --------------------------------------------------------
-#   plot 003: Shapes der Gemeinden
+#   plot 003
 # --------------------------------------------------------
 
 ggplot() +
   labs(
-    title="Shapefile Gemeinden des Kantons Luzern",
-    subtitle="Quelle: Geoportal Kanton Luzern",
+    title="Gemeinden des Kantons Luzern mit BFS-Nummer",
+    subtitle="Plot 3: Shapefile, Quelle Geoportal Kanton Luzern",
     x=NULL,
     y=NULL) +
   geom_map (
@@ -54,10 +54,11 @@ ggplot() +
     y = gd_map$lat) + 
   geom_text (data = gd_map_centers, aes(x = clong, y = clat, label = id)) +
   scale_fill_gradient2 (
-    limits=c(-1000,1000),
     low="red",
     mid="white", midpoint=0,
-    high="blue")
+    high="blue") + 
+  scale_color_manual(values=c("grey")) +
+  guides(fill = FALSE, color = FALSE)
 
 # stretch plot output to scale before exporting to file
 

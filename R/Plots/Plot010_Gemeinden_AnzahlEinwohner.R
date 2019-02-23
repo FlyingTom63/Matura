@@ -1,6 +1,6 @@
-# ########################################################
+﻿# ########################################################
 #   Project : CAS BDA6 SCHULE
-#   Purpose : plotting choropleth Plot005
+#   Purpose : plotting choropleth Plot010
 #   Date    : 18-JAN-2019  
 #   Author  : Thomas Luetolf
 #   Version : R 3.5.1, RStudio Version 1.1.463
