@@ -1,5 +1,7 @@
-jdbc:neo4j:bolt://becker-valleys-grey-chesley.graphstory.services:7687
+jdbc:neo4j:bolt://localhost:7687
 <protocol>://<host>:<port>/<database_name>
+jdbc:neo4j:bolt://becker-valleys-grey-chesley.graphstory.services:7687
+jdbc:neo4j:bolt://localhost:7687/SchuleDB
 jdbc:neo4j:bolt://creola-port-orchid-chelsie.graphstory.cloud:7687
 bolt://creola-port-orchid-chelsie.graphstory.cloud:7687
 jdbc:odbc://<host>:<port>/<database_name>

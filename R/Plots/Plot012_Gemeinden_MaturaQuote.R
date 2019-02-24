@@ -43,7 +43,9 @@ gd_dat <- read.csv("data/output/BDA6_SCHULE_Gemeinden_Matura.csv")
 colwise(class)(gd_dat)
 
 # rename data column for legend
-colnames(gd_dat)[6] <- "Quote"
+file_column_name <- "MaturaQuote"
+plot_column_name <- "Quote"
+colnames(gd_dat)[grep(file_column_name, colnames(gd_dat))] <- plot_column_name
 colwise(class)(gd_dat)
 
 # plot choropleth
