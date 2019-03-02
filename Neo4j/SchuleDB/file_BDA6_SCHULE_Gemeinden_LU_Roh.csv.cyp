@@ -1,6 +1,7 @@
 ﻿MATCH (g:Gemeinde)<-[r:istEingemeindetVon]-(alt:Gemeinde),
       (g)-[l:gehoertZu]->(o:Region),
-      (g)<-[v:verwaltet]-(a:Amt)
+      (g)<-[v:verwaltet]-(a:Amt),
+      (g)<-[v2:verwaltet]-(w:Wahlkreis)
 RETURN g.name AS GemeindeName,
        'LU' AS KantonKurzname,
        alt.AbweichenderNameKSLU AS GemeindeNameSchule,
@@ -10,6 +11,8 @@ RETURN g.name AS GemeindeName,
        o.RegionCode AS RegionCode,
        o.name AS RegionName,
        o.RegionKuerzel AS RegionKuerzel,
+       w.name AS WahlkreisName,
+       w.WahlkreisKuerzel AS WahlkreisKuerzel,
        a.name AS AmtName,
        a.AmtKuerzel AS AmtKuerzel,
        g.GesamtRankIAZIKorrigiert AS BRank_Gesamt,
@@ -23,7 +26,8 @@ RETURN g.name AS GemeindeName,
        g.SteuerFuss AS SteuerFuss
 UNION ALL
 MATCH (g:Gemeinde)-[l:gehoertZu]->(o:Region),
-      (g)<-[v:verwaltet]-(a:Amt)
+      (g)<-[v:verwaltet]-(a:Amt),
+      (g)<-[v2:verwaltet]-(w:Wahlkreis)
 WHERE g.AbweichenderNameKSLU IS NULL
 RETURN g.name AS GemeindeName,
        'LU' AS KantonKurzname,
@@ -34,6 +38,8 @@ RETURN g.name AS GemeindeName,
        o.RegionCode AS RegionCode,
        o.name AS RegionName,
        o.RegionKuerzel AS RegionKuerzel,
+       w.name AS WahlkreisName,
+       w.WahlkreisKuerzel AS WahlkreisKuerzel,
        a.name AS AmtName,
        a.AmtKuerzel AS AmtKuerzel,
        g.GesamtRankIAZIKorrigiert AS BRank_Gesamt,
