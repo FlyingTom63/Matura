@@ -1,6 +1,6 @@
 # ########################################################
 #   Project : CAS BDA6 SCHULE
-#   Purpose : plotting choropleth Plot013
+#   Purpose : plotting choropleth Plot014
 #   Date    : 18-JAN-2019  
 #   Author  : Thomas Luetolf
 #   Version : R 3.5.1, RStudio Version 1.1.463
@@ -43,21 +43,21 @@ gd_dat <- read.csv("data/output/BDA6_SCHULE_Gemeinden_LU_Roh.csv")
 colwise(class)(gd_dat)
 
 # rename data column for legend
-file_column_name <- "RegionKuerzel"
-plot_column_name <- "Region"
+file_column_name <- "AmtKuerzel"
+plot_column_name <- "Amt"
 colnames(gd_dat)[grep(file_column_name, colnames(gd_dat))] <- plot_column_name
 colwise(class)(gd_dat)
 
 # plot choropleth
 ggplot() +
   labs(
-    title="Gemeinden nach Regionen",
-    subtitle="Plot 13: Quelle Statistikregionen LU",
+    title="Gemeinden nach Ämtern",
+    subtitle="Plot 14",
     x=NULL,
     y=NULL) +
   geom_map (
     data = gd_dat,
-    aes(map_id = GemeindeNummer, fill = Region, color = "white"),
+    aes(map_id = GemeindeNummer, fill = Amt, color = "white"),
     map = gd_map) + 
   expand_limits (
     x = gd_map$long,
@@ -70,7 +70,7 @@ ggplot() +
 
 # save choropleth to PNG
 ggsave(
-  filename = "Plot013_Gemeinden_Regionen.png",
+  filename = "Plot014_Gemeinden_Aemter.png",
   plot = last_plot(),
   path = "images/Plots",
   scale = 1,
@@ -78,7 +78,7 @@ ggsave(
 
 # save choropleth to SVG
 ggsave(
-  filename = "Plot013_Gemeinden_Regionen.svg",
+  filename = "Plot014_Gemeinden_Aemter.svg",
   plot = last_plot(),
   path = "images/Plots",
   scale = 1)

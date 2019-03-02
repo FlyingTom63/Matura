@@ -58,6 +58,7 @@ ggplot() +
     y = gd_map$lat) + 
   geom_text (data = gd_map_centers, aes(x = clong, y = clat, label = id)) + 
   scale_color_manual(values=c("white")) +
+  scale_fill_manual(values=c("#D4E6F1", "#7FB3D5", "#2980B9", "#1F618D", "#154360")) +
   guides(color = FALSE)
 
 # stretch plot output to scale before exporting to file

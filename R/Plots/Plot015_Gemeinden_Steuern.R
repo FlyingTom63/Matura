@@ -1,6 +1,6 @@
 # ########################################################
 #   Project : CAS BDA6 SCHULE
-#   Purpose : plotting choropleth Plot013
+#   Purpose : plotting choropleth Plot015
 #   Date    : 18-JAN-2019  
 #   Author  : Thomas Luetolf
 #   Version : R 3.5.1, RStudio Version 1.1.463
@@ -39,38 +39,38 @@ gd_map_centers <- ddply(gd_map, .(id), summarize, clat = mean(lat), clong = mean
 # --------------------------------------------------------
 
 # read in data and display metadata
-gd_dat <- read.csv("data/output/BDA6_SCHULE_Gemeinden_LU_Roh.csv")
+gd_dat <- read.csv("data/output/BDA6_SCHULE_Gemeinden_LU_Ranked.csv")
 colwise(class)(gd_dat)
 
 # rename data column for legend
-file_column_name <- "RegionKuerzel"
-plot_column_name <- "Region"
+file_column_name <- "SteuernRank"
+plot_column_name <- "Rank"
 colnames(gd_dat)[grep(file_column_name, colnames(gd_dat))] <- plot_column_name
 colwise(class)(gd_dat)
 
 # plot choropleth
 ggplot() +
   labs(
-    title="Gemeinden nach Regionen",
-    subtitle="Plot 13: Quelle Statistikregionen LU",
+    title="Gemeinderanking LU nach Merkmal Steuerbelastung",
+    subtitle="Plot 15: Ranks 1-83, basierend auf CH-Ranking, Missing Values gemäss Nachbarschaft",
     x=NULL,
     y=NULL) +
   geom_map (
     data = gd_dat,
-    aes(map_id = GemeindeNummer, fill = Region, color = "white"),
+    aes(map_id = GemeindeNummer, fill = Rank, color = "white"),
     map = gd_map) + 
   expand_limits (
     x = gd_map$long,
     y = gd_map$lat) + 
-  geom_text (data = gd_map_centers, aes(x = clong, y = clat, label = id), color = "black") +
-  scale_color_manual(values=c("grey")) +
+  geom_text (data = gd_map_centers, aes(x = clong, y = clat, label = id), color = "grey") +
+  scale_color_manual(values=c("black")) +
   guides(color = FALSE)
 
 # stretch plot output to scale before exporting to file
 
 # save choropleth to PNG
 ggsave(
-  filename = "Plot013_Gemeinden_Regionen.png",
+  filename = "Plot015_Gemeinden_SteuernRank.png",
   plot = last_plot(),
   path = "images/Plots",
   scale = 1,
@@ -78,7 +78,7 @@ ggsave(
 
 # save choropleth to SVG
 ggsave(
-  filename = "Plot013_Gemeinden_Regionen.svg",
+  filename = "Plot015_Gemeinden_SteuernRank.svg",
   plot = last_plot(),
   path = "images/Plots",
   scale = 1)
