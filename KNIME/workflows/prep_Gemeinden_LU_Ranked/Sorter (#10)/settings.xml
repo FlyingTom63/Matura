@@ -8,7 +8,7 @@
 <config key="model">
 <config key="incllist">
 <entry key="array-size" type="xint" value="2"/>
-<entry key="0" type="xstring" value="%%65279GemeindeName"/>
+<entry key="0" type="xstring" value="GemeindeName"/>
 <entry key="1" type="xstring" value="GemeindeNameSchule"/>
 </config>
 <config key="sortOrder">
@@ -40,12 +40,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 88, Cols: 15"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 88, Cols: 31"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="1783f8ab-e3fe-497b-b58a-0c89cbc40b25"/>
+<entry key="file_store_id" type="xstring" value="d8ee45ca-f68d-4d69-b00b-bd4191e96883"/>
 </config>
 </config>

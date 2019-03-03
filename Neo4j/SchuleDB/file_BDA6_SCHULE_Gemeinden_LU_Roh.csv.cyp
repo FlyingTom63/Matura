@@ -23,7 +23,9 @@ RETURN g.name AS GemeindeName,
        g.SteuerRankIAZIKorrigiert AS BRank_Steuerbelastung,
        g.VersorgungRankIAZIKorrigiert AS BRank_Versorgung,
        g.WohnenRankIAZIKorrigiert AS BRank_Wohnen,
-       g.SteuerFuss AS SteuerFuss
+       g.SteuerFuss AS SteuerFuss,
+       g.MaturaNote AS MaturaNoteDurchschnitt,
+       g.MaturaQuote AS MaturaQuote
 UNION ALL
 MATCH (g:Gemeinde)-[l:gehoertZu]->(o:Region),
       (g)<-[v:verwaltet]-(a:Amt),
@@ -50,4 +52,6 @@ RETURN g.name AS GemeindeName,
        g.SteuerRankIAZIKorrigiert AS BRank_Steuerbelastung,
        g.VersorgungRankIAZIKorrigiert AS BRank_Versorgung,
        g.WohnenRankIAZIKorrigiert AS BRank_Wohnen,
-       g.SteuerFuss AS SteuerFuss
+       g.SteuerFuss AS SteuerFuss,
+       g.MaturaNote AS MaturaNoteDurchschnitt,
+       g.MaturaQuote AS MaturaQuote

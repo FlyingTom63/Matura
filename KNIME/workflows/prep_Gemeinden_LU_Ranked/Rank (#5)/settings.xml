@@ -6,6 +6,13 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
+<config key="GroupColumns_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="GroupColumns">
+<entry key="array-size" type="xint" value="0"/>
+</config>
 <config key="RankingColumns_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -14,6 +21,11 @@
 <entry key="array-size" type="xint" value="1"/>
 <entry key="0" type="xstring" value="BRank_Arbeitsmarkt"/>
 </config>
+<config key="RankMode_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="RankMode" type="xstring" value="Standard"/>
 <config key="RankOrder_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -22,18 +34,6 @@
 <entry key="array-size" type="xint" value="1"/>
 <entry key="0" type="xstring" value="Ascending"/>
 </config>
-<config key="GroupColumns_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<config key="GroupColumns">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="RankMode_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="RankMode" type="xstring" value="Standard"/>
 <config key="RankOutFieldName_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -85,12 +85,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 88, Cols: 19"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 88, Cols: 26"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="3b62aed4-fc1c-41a5-ad5f-3a99a3d737b2"/>
+<entry key="file_store_id" type="xstring" value="1fe67457-c3b4-4758-895f-b3870baf34ad"/>
 </config>
 </config>
