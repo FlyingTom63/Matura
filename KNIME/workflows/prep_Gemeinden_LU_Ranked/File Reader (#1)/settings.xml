@@ -72,7 +72,7 @@
 <entry key="CharsetName" type="xstring" isnull="true" value=""/>
 <entry key="ConnectTimeoutInSeconds" type="xint" value="1"/>
 <entry key="delimsAtEOLuserVal" type="xboolean" value="false"/>
-<entry key="numOfColumns" type="xint" value="24"/>
+<entry key="numOfColumns" type="xint" value="25"/>
 <config key="ColumnProperties">
 <config key="0">
 <entry key="UserSetValues" type="xboolean" value="false"/>
@@ -362,6 +362,18 @@
 <entry key="is_null" type="xboolean" value="false"/>
 </config>
 </config>
+<config key="24">
+<entry key="UserSetValues" type="xboolean" value="false"/>
+<entry key="MissValuePattern" type="xstring" isnull="true" value=""/>
+<entry key="FormatParameter" type="xstring" isnull="true" value=""/>
+<entry key="ReadPossValsFromFile" type="xboolean" value="false"/>
+<entry key="SkipThisColumn" type="xboolean" value="false"/>
+<entry key="ColumnName" type="xstring" value="AuslaenderAnteil"/>
+<config key="ColumnClass">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+</config>
 </config>
 </config>
 <config key="nodeAnnotation">
@@ -399,12 +411,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 88, Cols: 24"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 88, Cols: 25"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="e30f1ea4-e2e1-4f85-9610-7159d73d77f8"/>
+<entry key="file_store_id" type="xstring" value="493b9573-82e6-45e0-adc6-98b6f2cc426d"/>
 </config>
 </config>

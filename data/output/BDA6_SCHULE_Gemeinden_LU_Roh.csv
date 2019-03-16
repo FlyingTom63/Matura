@@ -1,89 +1,89 @@
-"GemeindeName","KantonKurzname","GemeindeNameSchule","GemeindeVerzeichnisFlag","GemeindeNummer","AnzahlEinwohner","RegionCode","RegionName","RegionKuerzel","WahlkreisName","WahlkreisKuerzel","AmtName","AmtKuerzel","BRank_Gesamt","BRank_Arbeitsmarkt","BRank_Bevoelkerung","BRank_Erreichbarkeit","BRank_Sicherheit","BRank_Steuerbelastung","BRank_Versorgung","BRank_Wohnen","SteuerFuss","MaturaNoteDurchschnitt","MaturaQuote"
-"Adligenswil","LU","Adligenswil",1,1051,5349,2,"Agglomerationskern","AGK","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",236,330,148,551,273,462,669,136,3.7,4.73,3.57
-"Aesch (LU)","LU","Aesch (LU)",1,1021,1051,11,"Seetal","SEE","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",316,78,271,812,177,521,116,503,3.6,4.6,1.71
-"Alberswil","LU","Alberswil",1,1121,643,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",753,597,452,855,10,537,606,615,3.75,4.46,1.56
-"Altbüron","LU","Altbüron",1,1122,974,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",610,607,426,745,10,484,409,288,3.9,4.7,1.54
-"Altishofen","LU","Altishofen",1,1123,1579,7,"Unteres Wiggertal","WIG","Wahlkreis Willisau","WI","Amt Willisau","WI",623,570,502,480,10,461,712,537,3.4,4.82,2.03
-"Altwis","LU","Altwis",1,1022,410,11,"Seetal","SEE","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",316,78,271,812,177,521,116,503,4.0,4.45,0.98
-"Ballwil","LU","Ballwil",1,1023,2649,11,"Seetal","SEE","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",182,64,83,703,177,211,648,512,3.2,4.71,1.51
-"Beromünster","LU","Beromünster",1,1081,6234,6,"Michelsamt/Surental","MIC","Wahlkreis Sursee","SU","Amt Sursee","SU",600,611,233,854,73,434,576,255,3.55,4.69,2.12
-"Beromünster","LU","Neudorf XXX",0,1081,6234,6,"Michelsamt/Surental","MIC","Wahlkreis Sursee","SU","Amt Sursee","SU",600,611,233,854,73,434,576,255,3.55,4.69,2.12
-"Buchrain","LU","Buchrain",1,1052,6161,2,"Agglomerationskern","AGK","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",282,212,580,634,273,434,883,774,3.6,4.65,1.93
-"Buttisholz","LU","Buttisholz",1,1083,3272,10,"Rottal-Wolhusen","ROW","Wahlkreis Sursee","SU","Amt Sursee","SU",810,760,550,864,73,543,787,536,3.7,4.81,1.89
-"Büron","LU","Büron",1,1082,2287,6,"Michelsamt/Surental","MIC","Wahlkreis Sursee","SU","Amt Sursee","SU",878,837,639,832,73,622,667,609,3.9,4.75,2.06
-"Dagmersellen","LU","Dagmersellen",1,1125,5118,7,"Unteres Wiggertal","WIG","Wahlkreis Willisau","WI","Amt Willisau","WI",415,244,474,499,10,397,908,400,3.55,4.78,1.33
-"Dierikon","LU","Dierikon",1,1053,1440,2,"Agglomerationskern","AGK","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",316,310,403,513,273,417,701,343,3.55,4.7,1.53
-"Doppleschwand","LU","Doppleschwand",1,1001,743,9,"Entlebuch","ENT","Wahlkreis Entlebuch","EN","Amt Entlebuch","EN",734,676,762,834,20,594,818,366,4.0,4.51,0.94
-"Ebersecken","LU","Ebersecken",1,1126,401,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",742,685,455,585,10,521,689,623,4.0,4.75,2.0
-"Ebikon","LU","Ebikon",1,1054,12781,2,"Agglomerationskern","AGK","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",372,398,569,337,273,367,799,446,3.5,4.66,1.44
-"Egolzwil","LU","Egolzwil",1,1127,1368,7,"Unteres Wiggertal","WIG","Wahlkreis Willisau","WI","Amt Willisau","WI",622,503,410,663,10,473,858,592,3.6,4.76,1.97
-"Eich","LU","Eich",1,1084,1707,5,"Sursee/Sempachersee","SUR","Wahlkreis Sursee","SU","Amt Sursee","SU",266,264,146,807,73,329,490,143,3.0,4.71,3.22
-"Emmen","LU","Emmen",1,1024,29292,2,"Agglomerationskern","AGK","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",351,316,853,564,177,459,514,612,3.85,4.68,1.32
-"Entlebuch","LU","Entlebuch",1,1002,3325,9,"Entlebuch","ENT","Wahlkreis Entlebuch","EN","Amt Entlebuch","EN",742,725,702,850,20,575,867,544,3.8,4.83,1.14
-"Ermensee","LU","Ermensee",1,1025,865,11,"Seetal","SEE","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",458,345,252,833,125,478,346,379,3.8,4.54,2.08
-"Eschenbach (LU)","LU","Eschenbach (LU)",1,1026,3594,3,"Agglomerationsgürtel (Luzerner Teil)","AGG","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",358,475,171,704,177,189,907,77,3.1,4.66,2.39
-"Escholzmatt-Marbach","LU","Escholzmatt XXX",0,1010,4323,9,"Entlebuch","ENT","Wahlkreis Entlebuch","EN","Amt Entlebuch","EN",869,854,832,857,20,575,201,830,3.65,4.72,1.09
-"Escholzmatt-Marbach","LU","Escholzmatt-Marbach",1,1010,4323,9,"Entlebuch","ENT","Wahlkreis Entlebuch","EN","Amt Entlebuch","EN",869,854,832,857,20,575,201,830,3.65,4.72,1.09
-"Escholzmatt-Marbach","LU","Marbach (LU) XXX",0,1010,4323,9,"Entlebuch","ENT","Wahlkreis Entlebuch","EN","Amt Entlebuch","EN",869,854,832,857,20,575,201,830,3.65,4.72,1.09
-"Ettiswil","LU","Ettiswil",1,1128,2562,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",782,577,428,859,10,499,757,775,3.75,4.64,1.56
-"Fischbach","LU","Fischbach",1,1129,733,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",767,665,499,829,10,542,675,632,4.0,4.64,1.64
-"Flühli","LU","Flühli",1,1004,1880,9,"Entlebuch","ENT","Wahlkreis Entlebuch","EN","Amt Entlebuch","EN",700,589,761,852,20,550,488,645,3.6,4.63,1.22
-"Gettnau","LU","Gettnau",1,1130,1088,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",746,651,530,850,10,539,524,559,4.0,4.92,1.1
-"Geuensee","LU","Geuensee",1,1085,2750,6,"Michelsamt/Surental","MIC","Wahlkreis Sursee","SU","Amt Sursee","SU",534,367,183,812,73,571,826,718,3.9,4.75,1.71
-"Gisikon","LU","Gisikon",1,1055,1134,4,"Rooterberg/Rigi","ROR","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",514,463,488,594,225,378,568,491,3.3,4.77,1.94
-"Greppen","LU","Greppen",1,1056,1034,4,"Rooterberg/Rigi","ROR","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",148,416,160,817,273,192,50,41,3.55,4.66,1.06
-"Grossdietwil","LU","Grossdietwil",1,1131,838,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",706,652,460,720,10,439,591,514,3.9,4.71,2.39
-"Grosswangen","LU","Grosswangen",1,1086,3104,10,"Rottal-Wolhusen","ROW","Wahlkreis Sursee","SU","Amt Sursee","SU",583,512,533,872,73,494,877,553,3.55,4.71,1.64
-"Hasle (LU)","LU","Hasle (LU)",1,1005,1778,9,"Entlebuch","ENT","Wahlkreis Entlebuch","EN","Amt Entlebuch","EN",637,524,696,848,20,550,821,502,4.0,4.78,1.57
-"Hergiswil bei Willisau","LU","Hergiswil bei Willisau",1,1132,1869,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",799,728,699,884,10,615,493,620,3.8,4.74,0.75
-"Hildisrieden","LU","Hildisrieden",1,1088,2055,3,"Agglomerationsgürtel (Luzerner Teil)","AGG","Wahlkreis Sursee","SU","Amt Sursee","SU",172,141,49,791,73,367,701,108,3.35,4.72,2.0
-"Hitzkirch","LU","Hitzkirch",1,1030,5069,11,"Seetal","SEE","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",316,78,271,812,177,521,116,503,3.65,4.7,2.29
-"Hochdorf","LU","Hochdorf",1,1031,9401,11,"Seetal","SEE","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",410,181,445,795,177,468,284,723,3.7,4.67,1.7
-"Hohenrain","LU","Hohenrain",1,1032,2481,11,"Seetal","SEE","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",744,754,297,848,177,543,838,419,3.85,4.66,2.46
-"Honau","LU","Honau",1,1057,381,4,"Rooterberg/Rigi","ROR","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",559,422,285,726,177,359,663,789,3.5,4.64,2.89
-"Horw","LU","Horw",1,1058,13813,2,"Agglomerationskern","AGK","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",35,29,450,525,273,196,407,32,3.15,4.66,2.42
-"Inwil","LU","Inwil",1,1033,2429,3,"Agglomerationsgürtel (Luzerner Teil)","AGG","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",559,422,285,726,177,359,663,789,3.5,4.66,1.36
-"Knutwil","LU","Knutwil",1,1089,2126,5,"Sursee/Sempachersee","SUR","Wahlkreis Sursee","SU","Amt Sursee","SU",377,441,103,827,73,524,542,429,3.75,4.68,2.59
-"Kriens","LU","Kriens",1,1059,27229,2,"Agglomerationskern","AGK","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",429,419,808,459,273,434,571,356,3.6,4.7,1.99
-"Luthern","LU","Luthern",1,1135,1307,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",705,623,594,892,10,532,223,413,4.0,4.72,0.84
-"Luzern","LU","Luzern",1,1061,81057,1,"Stadt Luzern","LUZ","Wahlkreis Luzern-Stadt","LS","Amt Luzern","LU",80,172,705,170,874,339,102,29,3.45,4.65,1.45
-"Malters","LU","Malters",1,1062,6923,3,"Agglomerationsgürtel (Luzerner Teil)","AGG","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",401,278,684,629,273,472,334,725,3.65,4.8,1.81
-"Mauensee","LU","Mauensee",1,1091,1271,5,"Sursee/Sempachersee","SUR","Wahlkreis Sursee","SU","Amt Sursee","SU",477,388,379,753,46,426,633,407,3.7,4.73,4.01
-"Meggen","LU","Meggen",1,1063,6775,2,"Agglomerationskern","AGK","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",1,21,95,473,273,29,59,19,2.535,4.64,3.07
-"Meierskappel","LU","Meierskappel",1,1064,1351,4,"Rooterberg/Rigi","ROR","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",344,304,360,521,273,411,576,181,3.85,4.23,0.59
-"Menznau","LU","Menznau",1,1136,2918,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",893,832,803,876,10,698,763,826,3.9,4.68,0.99
-"Nebikon","LU","Nebikon",1,1137,2517,7,"Unteres Wiggertal","WIG","Wahlkreis Willisau","WI","Amt Willisau","WI",741,685,281,617,10,410,852,706,3.5,4.76,0.91
-"Neuenkirch","LU","Neuenkirch",1,1093,6484,3,"Agglomerationsgürtel (Luzerner Teil)","AGG","Wahlkreis Sursee","SU","Amt Sursee","SU",198,29,199,695,73,472,344,308,3.5,4.73,2.04
-"Nottwil","LU","Nottwil",1,1094,3476,5,"Sursee/Sempachersee","SUR","Wahlkreis Sursee","SU","Amt Sursee","SU",267,128,136,798,73,459,69,37,3.55,4.81,1.7
-"Oberkirch","LU","Oberkirch",1,1095,4062,5,"Sursee/Sempachersee","SUR","Wahlkreis Sursee","SU","Amt Sursee","SU",297,106,73,811,73,223,453,68,3.25,4.74,2.68
-"Pfaffnau","LU","Pfaffnau",1,1139,2304,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",610,607,426,745,10,484,409,288,3.55,4.33,0.65
-"Rain","LU","Rain",1,1037,2533,3,"Agglomerationsgürtel (Luzerner Teil)","AGG","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",194,20,37,776,177,417,782,711,3.5,4.69,1.89
-"Reiden","LU","Reiden",1,1140,6892,7,"Unteres Wiggertal","WIG","Wahlkreis Willisau","WI","Amt Willisau","WI",712,780,752,323,10,575,377,506,3.9,4.64,1.03
-"Rickenbach (LU)","LU","Pfeffikon XXX",0,1097,3110,6,"Michelsamt/Surental","MIC","Wahlkreis Sursee","SU","Amt Sursee","SU",771,721,287,861,73,543,769,627,3.85,4.64,1.51
-"Rickenbach (LU)","LU","Rickenbach (LU)",1,1097,3110,6,"Michelsamt/Surental","MIC","Wahlkreis Sursee","SU","Amt Sursee","SU",771,721,287,861,73,543,769,627,3.85,4.64,1.51
-"Roggliswil","LU","Roggliswil",1,1142,647,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",610,607,426,745,10,484,409,288,3.8,4.59,0.31
-"Romoos","LU","Romoos",1,1007,663,9,"Entlebuch","ENT","Wahlkreis Entlebuch","EN","Amt Entlebuch","EN",717,594,771,847,17,612,769,491,3.8,4.77,0.75
-"Root","LU","Root",1,1065,4736,4,"Rooterberg/Rigi","ROR","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",468,504,690,462,273,397,472,192,3.4,4.69,1.06
-"Rothenburg","LU","Rothenburg",1,1040,7246,2,"Agglomerationskern","AGK","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",250,163,277,513,177,367,511,243,3.5,4.71,2.26
-"Ruswil","LU","Ruswil",1,1098,6812,10,"Rottal-Wolhusen","ROW","Wahlkreis Sursee","SU","Amt Sursee","SU",400,158,577,840,73,537,492,777,3.6,4.79,1.57
-"Römerswil","LU","Römerswil",1,1039,1669,11,"Seetal","SEE","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",338,206,207,806,135,441,492,460,3.75,4.74,1.26
-"Schenkon","LU","Schenkon",1,1099,2731,5,"Sursee/Sempachersee","SUR","Wahlkreis Sursee","SU","Amt Sursee","SU",136,18,102,830,73,86,610,62,2.85,4.73,3.08
-"Schlierbach","LU","Schlierbach",1,1100,792,6,"Michelsamt/Surental","MIC","Wahlkreis Sursee","SU","Amt Sursee","SU",740,665,404,834,73,516,770,616,3.35,4.81,1.89
-"Schongau","LU","Schongau",1,1041,1004,11,"Seetal","SEE","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",316,78,271,812,177,521,116,503,3.8,4.66,2.09
-"Schwarzenberg","LU","Schwarzenberg",1,1066,1686,3,"Agglomerationsgürtel (Luzerner Teil)","AGG","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",524,474,731,646,189,494,591,542,3.8,4.53,2.02
-"Schötz","LU","Ohmstal XXX",0,1143,4095,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",772,591,333,814,10,579,837,657,3.85,4.58,1.56
-"Schötz","LU","Schötz",1,1143,4095,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",772,591,333,814,10,579,837,657,3.85,4.58,1.56
-"Schüpfheim","LU","Schüpfheim",1,1008,4111,9,"Entlebuch","ENT","Wahlkreis Entlebuch","EN","Amt Entlebuch","EN",531,323,689,846,20,524,775,459,3.75,4.76,2.51
-"Sempach","LU","Sempach",1,1102,4171,5,"Sursee/Sempachersee","SUR","Wahlkreis Sursee","SU","Amt Sursee","SU",61,163,104,736,73,468,285,112,3.6,4.72,3.31
-"Sursee","LU","Sursee",1,1103,9390,5,"Sursee/Sempachersee","SUR","Wahlkreis Sursee","SU","Amt Sursee","SU",321,343,488,685,73,339,58,15,3.45,4.73,2.06
-"Triengen","LU","Triengen",1,1104,4462,6,"Michelsamt/Surental","MIC","Wahlkreis Sursee","SU","Amt Sursee","SU",777,733,506,832,73,326,818,510,3.35,4.7,1.52
-"Udligenswil","LU","Udligenswil",1,1067,2262,3,"Agglomerationsgürtel (Luzerner Teil)","AGG","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",220,104,30,580,273,424,680,169,3.55,4.67,1.86
-"Ufhusen","LU","Ufhusen",1,1145,876,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",733,681,629,868,10,519,368,510,4.0,4.77,1.37
-"Vitznau","LU","Vitznau",1,1068,1271,4,"Rooterberg/Rigi","ROR","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",148,416,160,817,273,192,50,41,2.9,4.08,0.55
-"Wauwil","LU","Wauwil",1,1146,1904,7,"Unteres Wiggertal","WIG","Wahlkreis Willisau","WI","Amt Willisau","WI",561,493,551,720,10,505,834,606,3.75,4.74,1.31
-"Weggis","LU","Weggis",1,1069,4355,4,"Rooterberg/Rigi","ROR","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",148,416,160,817,273,192,50,41,3.05,4.85,0.92
-"Werthenstein","LU","Werthenstein",1,1009,2035,10,"Rottal-Wolhusen","ROW","Wahlkreis Entlebuch","EN","Amt Entlebuch","EN",678,541,772,837,20,613,585,305,4.0,4.8,1.33
-"Wikon","LU","Wikon",1,1147,1470,7,"Unteres Wiggertal","WIG","Wahlkreis Willisau","WI","Amt Willisau","WI",712,780,752,323,10,575,377,506,4.1,4.74,0.41
-"Willisau","LU","Willisau",1,1151,7623,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",705,623,594,892,10,532,223,413,3.8,4.69,2.32
-"Wolhusen","LU","Wolhusen",1,1107,4294,10,"Rottal-Wolhusen","ROW","Wahlkreis Entlebuch","EN","Amt Sursee","SU",726,627,822,818,20,613,768,188,4.0,4.66,1.84
-"Zell (LU)","LU","Zell (LU)",1,1150,1999,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",761,739,664,843,10,505,512,607,3.6,4.77,2.05
+"GemeindeName","KantonKurzname","GemeindeNameSchule","GemeindeVerzeichnisFlag","GemeindeNummer","AnzahlEinwohner","RegionCode","RegionName","RegionKuerzel","WahlkreisName","WahlkreisKuerzel","AmtName","AmtKuerzel","BRank_Gesamt","BRank_Arbeitsmarkt","BRank_Bevoelkerung","BRank_Erreichbarkeit","BRank_Sicherheit","BRank_Steuerbelastung","BRank_Versorgung","BRank_Wohnen","SteuerFuss","MaturaNoteDurchschnitt","MaturaQuote","AuslaenderAnteil"
+"Adligenswil","LU","Adligenswil",1,1051,5349,2,"Agglomerationskern","AGK","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",236,330,148,551,273,462,669,136,3.7,4.73,3.57,10.0
+"Aesch (LU)","LU","Aesch (LU)",1,1021,1051,11,"Seetal","SEE","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",316,78,271,812,177,521,116,503,3.6,4.6,1.71,10.4
+"Alberswil","LU","Alberswil",1,1121,643,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",753,597,452,855,10,537,606,615,3.75,4.46,1.56,11.5
+"Altbüron","LU","Altbüron",1,1122,974,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",610,607,426,745,10,484,409,288,3.9,4.7,1.54,8.1
+"Altishofen","LU","Altishofen",1,1123,1579,7,"Unteres Wiggertal","WIG","Wahlkreis Willisau","WI","Amt Willisau","WI",623,570,502,480,10,461,712,537,3.4,4.82,2.03,17.4
+"Altwis","LU","Altwis",1,1022,410,11,"Seetal","SEE","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",316,78,271,812,177,521,116,503,4.0,4.45,0.98,9.3
+"Ballwil","LU","Ballwil",1,1023,2649,11,"Seetal","SEE","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",182,64,83,703,177,211,648,512,3.2,4.71,1.51,6.5
+"Beromünster","LU","Beromünster",1,1081,6234,6,"Michelsamt/Surental","MIC","Wahlkreis Sursee","SU","Amt Sursee","SU",600,611,233,854,73,434,576,255,3.55,4.69,2.12,11.9
+"Beromünster","LU","Neudorf XXX",0,1081,6234,6,"Michelsamt/Surental","MIC","Wahlkreis Sursee","SU","Amt Sursee","SU",600,611,233,854,73,434,576,255,3.55,4.69,2.12,11.9
+"Buchrain","LU","Buchrain",1,1052,6161,2,"Agglomerationskern","AGK","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",282,212,580,634,273,434,883,774,3.6,4.65,1.93,17.9
+"Buttisholz","LU","Buttisholz",1,1083,3272,10,"Rottal-Wolhusen","ROW","Wahlkreis Sursee","SU","Amt Sursee","SU",810,760,550,864,73,543,787,536,3.7,4.81,1.89,12.1
+"Büron","LU","Büron",1,1082,2287,6,"Michelsamt/Surental","MIC","Wahlkreis Sursee","SU","Amt Sursee","SU",878,837,639,832,73,622,667,609,3.9,4.75,2.06,25.2
+"Dagmersellen","LU","Dagmersellen",1,1125,5118,7,"Unteres Wiggertal","WIG","Wahlkreis Willisau","WI","Amt Willisau","WI",415,244,474,499,10,397,908,400,3.55,4.78,1.33,14.2
+"Dierikon","LU","Dierikon",1,1053,1440,2,"Agglomerationskern","AGK","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",316,310,403,513,273,417,701,343,3.55,4.7,1.53,16.9
+"Doppleschwand","LU","Doppleschwand",1,1001,743,9,"Entlebuch","ENT","Wahlkreis Entlebuch","EN","Amt Entlebuch","EN",734,676,762,834,20,594,818,366,4.0,4.51,0.94,4.8
+"Ebersecken","LU","Ebersecken",1,1126,401,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",742,685,455,585,10,521,689,623,4.0,4.75,2.0,4.5
+"Ebikon","LU","Ebikon",1,1054,12781,2,"Agglomerationskern","AGK","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",372,398,569,337,273,367,799,446,3.5,4.66,1.44,20.8
+"Egolzwil","LU","Egolzwil",1,1127,1368,7,"Unteres Wiggertal","WIG","Wahlkreis Willisau","WI","Amt Willisau","WI",622,503,410,663,10,473,858,592,3.6,4.76,1.97,8.6
+"Eich","LU","Eich",1,1084,1707,5,"Sursee/Sempachersee","SUR","Wahlkreis Sursee","SU","Amt Sursee","SU",266,264,146,807,73,329,490,143,3.0,4.71,3.22,6.5
+"Emmen","LU","Emmen",1,1024,29292,2,"Agglomerationskern","AGK","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",351,316,853,564,177,459,514,612,3.85,4.68,1.32,33.3
+"Entlebuch","LU","Entlebuch",1,1002,3325,9,"Entlebuch","ENT","Wahlkreis Entlebuch","EN","Amt Entlebuch","EN",742,725,702,850,20,575,867,544,3.8,4.83,1.14,6.7
+"Ermensee","LU","Ermensee",1,1025,865,11,"Seetal","SEE","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",458,345,252,833,125,478,346,379,3.8,4.54,2.08,11.3
+"Eschenbach (LU)","LU","Eschenbach (LU)",1,1026,3594,3,"Agglomerationsgürtel (Luzerner Teil)","AGG","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",358,475,171,704,177,189,907,77,3.1,4.66,2.39,10.2
+"Escholzmatt-Marbach","LU","Escholzmatt XXX",0,1010,4323,9,"Entlebuch","ENT","Wahlkreis Entlebuch","EN","Amt Entlebuch","EN",869,854,832,857,20,575,201,830,3.65,4.72,1.09,5.8
+"Escholzmatt-Marbach","LU","Escholzmatt-Marbach",1,1010,4323,9,"Entlebuch","ENT","Wahlkreis Entlebuch","EN","Amt Entlebuch","EN",869,854,832,857,20,575,201,830,3.65,4.72,1.09,5.8
+"Escholzmatt-Marbach","LU","Marbach (LU) XXX",0,1010,4323,9,"Entlebuch","ENT","Wahlkreis Entlebuch","EN","Amt Entlebuch","EN",869,854,832,857,20,575,201,830,3.65,4.72,1.09,5.8
+"Ettiswil","LU","Ettiswil",1,1128,2562,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",782,577,428,859,10,499,757,775,3.75,4.64,1.56,8.5
+"Fischbach","LU","Fischbach",1,1129,733,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",767,665,499,829,10,542,675,632,4.0,4.64,1.64,10.1
+"Flühli","LU","Flühli",1,1004,1880,9,"Entlebuch","ENT","Wahlkreis Entlebuch","EN","Amt Entlebuch","EN",700,589,761,852,20,550,488,645,3.6,4.63,1.22,17.3
+"Gettnau","LU","Gettnau",1,1130,1088,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",746,651,530,850,10,539,524,559,4.0,4.92,1.1,19.2
+"Geuensee","LU","Geuensee",1,1085,2750,6,"Michelsamt/Surental","MIC","Wahlkreis Sursee","SU","Amt Sursee","SU",534,367,183,812,73,571,826,718,3.9,4.75,1.71,21.1
+"Gisikon","LU","Gisikon",1,1055,1134,4,"Rooterberg/Rigi","ROR","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",514,463,488,594,225,378,568,491,3.3,4.77,1.94,17.5
+"Greppen","LU","Greppen",1,1056,1034,4,"Rooterberg/Rigi","ROR","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",148,416,160,817,273,192,50,41,3.55,4.66,1.06,16.7
+"Grossdietwil","LU","Grossdietwil",1,1131,838,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",706,652,460,720,10,439,591,514,3.9,4.71,2.39,6.9
+"Grosswangen","LU","Grosswangen",1,1086,3104,10,"Rottal-Wolhusen","ROW","Wahlkreis Sursee","SU","Amt Sursee","SU",583,512,533,872,73,494,877,553,3.55,4.71,1.64,12.3
+"Hasle (LU)","LU","Hasle (LU)",1,1005,1778,9,"Entlebuch","ENT","Wahlkreis Entlebuch","EN","Amt Entlebuch","EN",637,524,696,848,20,550,821,502,4.0,4.78,1.57,4.8
+"Hergiswil bei Willisau","LU","Hergiswil bei Willisau",1,1132,1869,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",799,728,699,884,10,615,493,620,3.8,4.74,0.75,5.8
+"Hildisrieden","LU","Hildisrieden",1,1088,2055,3,"Agglomerationsgürtel (Luzerner Teil)","AGG","Wahlkreis Sursee","SU","Amt Sursee","SU",172,141,49,791,73,367,701,108,3.35,4.72,2.0,8.1
+"Hitzkirch","LU","Hitzkirch",1,1030,5069,11,"Seetal","SEE","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",316,78,271,812,177,521,116,503,3.65,4.7,2.29,14.8
+"Hochdorf","LU","Hochdorf",1,1031,9401,11,"Seetal","SEE","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",410,181,445,795,177,468,284,723,3.7,4.67,1.7,20.9
+"Hohenrain","LU","Hohenrain",1,1032,2481,11,"Seetal","SEE","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",744,754,297,848,177,543,838,419,3.85,4.66,2.46,6.6
+"Honau","LU","Honau",1,1057,381,4,"Rooterberg/Rigi","ROR","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",559,422,285,726,177,359,663,789,3.5,4.64,2.89,8.7
+"Horw","LU","Horw",1,1058,13813,2,"Agglomerationskern","AGK","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",35,29,450,525,273,196,407,32,3.15,4.66,2.42,17.0
+"Inwil","LU","Inwil",1,1033,2429,3,"Agglomerationsgürtel (Luzerner Teil)","AGG","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",559,422,285,726,177,359,663,789,3.5,4.66,1.36,10.3
+"Knutwil","LU","Knutwil",1,1089,2126,5,"Sursee/Sempachersee","SUR","Wahlkreis Sursee","SU","Amt Sursee","SU",377,441,103,827,73,524,542,429,3.75,4.68,2.59,9.5
+"Kriens","LU","Kriens",1,1059,27229,2,"Agglomerationskern","AGK","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",429,419,808,459,273,434,571,356,3.6,4.7,1.99,17.7
+"Luthern","LU","Luthern",1,1135,1307,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",705,623,594,892,10,532,223,413,4.0,4.72,0.84,5.0
+"Luzern","LU","Luzern",1,1061,81057,1,"Stadt Luzern","LUZ","Wahlkreis Luzern-Stadt","LS","Amt Luzern","LU",80,172,705,170,874,339,102,29,3.45,4.65,1.45,24.2
+"Malters","LU","Malters",1,1062,6923,3,"Agglomerationsgürtel (Luzerner Teil)","AGG","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",401,278,684,629,273,472,334,725,3.65,4.8,1.81,11.5
+"Mauensee","LU","Mauensee",1,1091,1271,5,"Sursee/Sempachersee","SUR","Wahlkreis Sursee","SU","Amt Sursee","SU",477,388,379,753,46,426,633,407,3.7,4.73,4.01,9.2
+"Meggen","LU","Meggen",1,1063,6775,2,"Agglomerationskern","AGK","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",1,21,95,473,273,29,59,19,2.535,4.64,3.07,13.8
+"Meierskappel","LU","Meierskappel",1,1064,1351,4,"Rooterberg/Rigi","ROR","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",344,304,360,521,273,411,576,181,3.85,4.23,0.59,13.6
+"Menznau","LU","Menznau",1,1136,2918,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",893,832,803,876,10,698,763,826,3.9,4.68,0.99,9.3
+"Nebikon","LU","Nebikon",1,1137,2517,7,"Unteres Wiggertal","WIG","Wahlkreis Willisau","WI","Amt Willisau","WI",741,685,281,617,10,410,852,706,3.5,4.76,0.91,26.5
+"Neuenkirch","LU","Neuenkirch",1,1093,6484,3,"Agglomerationsgürtel (Luzerner Teil)","AGG","Wahlkreis Sursee","SU","Amt Sursee","SU",198,29,199,695,73,472,344,308,3.5,4.73,2.04,10.2
+"Nottwil","LU","Nottwil",1,1094,3476,5,"Sursee/Sempachersee","SUR","Wahlkreis Sursee","SU","Amt Sursee","SU",267,128,136,798,73,459,69,37,3.55,4.81,1.7,11.0
+"Oberkirch","LU","Oberkirch",1,1095,4062,5,"Sursee/Sempachersee","SUR","Wahlkreis Sursee","SU","Amt Sursee","SU",297,106,73,811,73,223,453,68,3.25,4.74,2.68,11.6
+"Pfaffnau","LU","Pfaffnau",1,1139,2304,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",610,607,426,745,10,484,409,288,3.55,4.33,0.65,11.2
+"Rain","LU","Rain",1,1037,2533,3,"Agglomerationsgürtel (Luzerner Teil)","AGG","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",194,20,37,776,177,417,782,711,3.5,4.69,1.89,5.4
+"Reiden","LU","Reiden",1,1140,6892,7,"Unteres Wiggertal","WIG","Wahlkreis Willisau","WI","Amt Willisau","WI",712,780,752,323,10,575,377,506,3.9,4.64,1.03,21.8
+"Rickenbach (LU)","LU","Pfeffikon XXX",0,1097,3110,6,"Michelsamt/Surental","MIC","Wahlkreis Sursee","SU","Amt Sursee","SU",771,721,287,861,73,543,769,627,3.85,4.64,1.51,17.9
+"Rickenbach (LU)","LU","Rickenbach (LU)",1,1097,3110,6,"Michelsamt/Surental","MIC","Wahlkreis Sursee","SU","Amt Sursee","SU",771,721,287,861,73,543,769,627,3.85,4.64,1.51,17.9
+"Roggliswil","LU","Roggliswil",1,1142,647,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",610,607,426,745,10,484,409,288,3.8,4.59,0.31,5.4
+"Romoos","LU","Romoos",1,1007,663,9,"Entlebuch","ENT","Wahlkreis Entlebuch","EN","Amt Entlebuch","EN",717,594,771,847,17,612,769,491,3.8,4.77,0.75,1.5
+"Root","LU","Root",1,1065,4736,4,"Rooterberg/Rigi","ROR","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",468,504,690,462,273,397,472,192,3.4,4.69,1.06,24.9
+"Rothenburg","LU","Rothenburg",1,1040,7246,2,"Agglomerationskern","AGK","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",250,163,277,513,177,367,511,243,3.5,4.71,2.26,8.9
+"Ruswil","LU","Ruswil",1,1098,6812,10,"Rottal-Wolhusen","ROW","Wahlkreis Sursee","SU","Amt Sursee","SU",400,158,577,840,73,537,492,777,3.6,4.79,1.57,7.6
+"Römerswil","LU","Römerswil",1,1039,1669,11,"Seetal","SEE","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",338,206,207,806,135,441,492,460,3.75,4.74,1.26,5.3
+"Schenkon","LU","Schenkon",1,1099,2731,5,"Sursee/Sempachersee","SUR","Wahlkreis Sursee","SU","Amt Sursee","SU",136,18,102,830,73,86,610,62,2.85,4.73,3.08,4.9
+"Schlierbach","LU","Schlierbach",1,1100,792,6,"Michelsamt/Surental","MIC","Wahlkreis Sursee","SU","Amt Sursee","SU",740,665,404,834,73,516,770,616,3.35,4.81,1.89,8.7
+"Schongau","LU","Schongau",1,1041,1004,11,"Seetal","SEE","Wahlkreis Hochdorf","HO","Amt Hochdorf","HO",316,78,271,812,177,521,116,503,3.8,4.66,2.09,5.5
+"Schwarzenberg","LU","Schwarzenberg",1,1066,1686,3,"Agglomerationsgürtel (Luzerner Teil)","AGG","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",524,474,731,646,189,494,591,542,3.8,4.53,2.02,6.4
+"Schötz","LU","Ohmstal XXX",0,1143,4095,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",772,591,333,814,10,579,837,657,3.85,4.58,1.56,16.4
+"Schötz","LU","Schötz",1,1143,4095,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",772,591,333,814,10,579,837,657,3.85,4.58,1.56,16.4
+"Schüpfheim","LU","Schüpfheim",1,1008,4111,9,"Entlebuch","ENT","Wahlkreis Entlebuch","EN","Amt Entlebuch","EN",531,323,689,846,20,524,775,459,3.75,4.76,2.51,8.1
+"Sempach","LU","Sempach",1,1102,4171,5,"Sursee/Sempachersee","SUR","Wahlkreis Sursee","SU","Amt Sursee","SU",61,163,104,736,73,468,285,112,3.6,4.72,3.31,7.9
+"Sursee","LU","Sursee",1,1103,9390,5,"Sursee/Sempachersee","SUR","Wahlkreis Sursee","SU","Amt Sursee","SU",321,343,488,685,73,339,58,15,3.45,4.73,2.06,15.3
+"Triengen","LU","Triengen",1,1104,4462,6,"Michelsamt/Surental","MIC","Wahlkreis Sursee","SU","Amt Sursee","SU",777,733,506,832,73,326,818,510,3.35,4.7,1.52,24.5
+"Udligenswil","LU","Udligenswil",1,1067,2262,3,"Agglomerationsgürtel (Luzerner Teil)","AGG","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",220,104,30,580,273,424,680,169,3.55,4.67,1.86,9.6
+"Ufhusen","LU","Ufhusen",1,1145,876,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",733,681,629,868,10,519,368,510,4.0,4.77,1.37,4.6
+"Vitznau","LU","Vitznau",1,1068,1271,4,"Rooterberg/Rigi","ROR","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",148,416,160,817,273,192,50,41,2.9,4.08,0.55,24.0
+"Wauwil","LU","Wauwil",1,1146,1904,7,"Unteres Wiggertal","WIG","Wahlkreis Willisau","WI","Amt Willisau","WI",561,493,551,720,10,505,834,606,3.75,4.74,1.31,25.6
+"Weggis","LU","Weggis",1,1069,4355,4,"Rooterberg/Rigi","ROR","Wahlkreis Luzern-Land","LL","Amt Luzern","LU",148,416,160,817,273,192,50,41,3.05,4.85,0.92,22.3
+"Werthenstein","LU","Werthenstein",1,1009,2035,10,"Rottal-Wolhusen","ROW","Wahlkreis Entlebuch","EN","Amt Entlebuch","EN",678,541,772,837,20,613,585,305,4.0,4.8,1.33,13.1
+"Wikon","LU","Wikon",1,1147,1470,7,"Unteres Wiggertal","WIG","Wahlkreis Willisau","WI","Amt Willisau","WI",712,780,752,323,10,575,377,506,4.1,4.74,0.41,15.2
+"Willisau","LU","Willisau",1,1151,7623,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",705,623,594,892,10,532,223,413,3.8,4.69,2.32,9.9
+"Wolhusen","LU","Wolhusen",1,1107,4294,10,"Rottal-Wolhusen","ROW","Wahlkreis Entlebuch","EN","Amt Sursee","SU",726,627,822,818,20,613,768,188,4.0,4.66,1.84,15.7
+"Zell (LU)","LU","Zell (LU)",1,1150,1999,8,"Willisau","WIL","Wahlkreis Willisau","WI","Amt Willisau","WI",761,739,664,843,10,505,512,607,3.6,4.77,2.05,11.6
